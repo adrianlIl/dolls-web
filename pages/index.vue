@@ -97,6 +97,7 @@ const limitedProducts = productsData.filter(product => product.isLimited)
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   color: #333;
+  background: transparent;
 }
 
 .container {
@@ -126,18 +127,21 @@ const limitedProducts = productsData.filter(product => product.isLimited)
 }
 
 .section-divider span {
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   padding: 0 2rem;
   font-size: 1.5rem;
   font-weight: bold;
   color: #333;
   position: relative;
   z-index: 2;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
 }
 
 /* Featured Products */
 .featured-products {
   padding: 2rem 0;
+  background: transparent;
 }
 
 .products-grid {
@@ -145,16 +149,24 @@ const limitedProducts = productsData.filter(product => product.isLimited)
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
+  padding: 2rem 0;
 }
 
 .product-card {
-  background: white;
+  background: rgba(255, 255, 255, 0.95);
   border-radius: 15px;
   padding: 0;
   text-align: center;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
   transition: transform 0.3s;
   overflow: hidden;
+  position: relative;
+  border: 3px solid #333;
+  box-shadow: 
+    4px 4px 0 #ff6b9d,
+    8px 8px 0 #4ecdc4,
+    12px 12px 0 #45b7d1,
+    16px 16px 0 #96ceb4;
+  backdrop-filter: blur(10px);
 }
 
 .product-card:hover {
@@ -250,6 +262,7 @@ const limitedProducts = productsData.filter(product => product.isLimited)
 /* Limited Edition */
 .limited-edition {
   padding: 2rem 0;
+  background: transparent;
 }
 
 .limited-grid {
@@ -257,16 +270,24 @@ const limitedProducts = productsData.filter(product => product.isLimited)
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
+  padding: 2rem 0;
 }
 
 .limited-card {
-  background: white;
+  background: rgba(255, 255, 255, 0.95);
   border-radius: 15px;
   padding: 0;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
   transition: transform 0.3s;
   overflow: hidden;
+  position: relative;
+  border: 3px solid #333;
+  box-shadow: 
+    4px 4px 0 #ff6b9d,
+    8px 8px 0 #4ecdc4,
+    12px 12px 0 #45b7d1,
+    16px 16px 0 #96ceb4;
+  backdrop-filter: blur(10px);
 }
 
 .limited-card:hover {
@@ -308,7 +329,7 @@ const limitedProducts = productsData.filter(product => product.isLimited)
 /* Pre-order Exclusives */
 .preorder-exclusives {
   padding: 2rem 0;
-  background: #f8f9fa;
+  background: transparent;
 }
 
 .preorder-banner-image {
@@ -316,18 +337,18 @@ const limitedProducts = productsData.filter(product => product.isLimited)
   height: auto;
   display: block;
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  
   transition: transform 0.3s ease;
 }
 
 .preorder-banner-image:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
 
 /* Featured Figurines */
 .featured-figurines {
   padding: 2rem 0;
+  background: transparent;
 }
 
 .figurines-grid {
@@ -335,16 +356,24 @@ const limitedProducts = productsData.filter(product => product.isLimited)
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
+  padding: 2rem 0;
 }
 
 .figurine-card {
-  background: white;
+  background: rgba(255, 255, 255, 0.95);
   border-radius: 15px;
   padding: 0;
   text-align: center;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
   transition: transform 0.3s;
   overflow: hidden;
+  position: relative;
+  border: 3px solid #333;
+  box-shadow: 
+    4px 4px 0 #ff6b9d,
+    8px 8px 0 #4ecdc4,
+    12px 12px 0 #45b7d1,
+    16px 16px 0 #96ceb4;
+  backdrop-filter: blur(10px);
 }
 
 .figurine-card:hover {

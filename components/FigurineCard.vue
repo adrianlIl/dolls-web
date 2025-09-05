@@ -46,14 +46,21 @@ const props = defineProps({
 }
 
 .figurine-card {
-  background: white;
+  background: rgba(255, 255, 255, 0.95);
   border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s;
   height: 440px; /* 調整高度以配合新的圖片高度 */
   display: flex;
   flex-direction: column;
+  position: relative;
+  border: 3px solid #333;
+  box-shadow: 
+    4px 4px 0 #ff6b9d,
+    8px 8px 0 #4ecdc4,
+    12px 12px 0 #45b7d1,
+    16px 16px 0 #96ceb4;
+  backdrop-filter: blur(10px);
 }
 
 .figurine-card:hover {

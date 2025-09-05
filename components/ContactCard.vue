@@ -62,7 +62,7 @@ const showQRCode = ref(false)
 }
 
 .banner-content {
-  background: linear-gradient(90deg, #d63384 0%, #ffc0cb 100%);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-radius: 15px;
   padding: 2rem 3rem;
   display: flex;

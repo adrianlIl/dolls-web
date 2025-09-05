@@ -125,7 +125,7 @@
   }
   
   .logo-image {
-    height: 35px;
+    height: 25px;
   }
 }
 </style>

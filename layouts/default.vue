@@ -27,6 +27,21 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .banner-section {
@@ -34,7 +49,9 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  margin-top: 80px; /* 為固定 header 留出空間 */
+  margin-top: 70px; /* 為固定 header 留出空間 */
+  position: relative;
+  z-index: 1;
 }
 
 .banner-image {
@@ -52,7 +69,7 @@
 /* 響應式設計 */
 @media (max-width: 768px) {
   .banner-section {
-    margin-top: 70px; /* 手機版 header 較矮 */
+    margin-top: 62px; /* 手機版 header 較矮 */
   }
   
   .banner-image {
@@ -63,7 +80,7 @@
 
 @media (max-width: 480px) {
   .banner-section {
-    margin-top: 65px; /* 小螢幕手機版 */
+    margin-top: 70px; /* 小螢幕手機版 */
   }
   
   .banner-image {
