@@ -40,7 +40,6 @@
             <!-- Title Section -->
             <div class="title-section">
               <h1 class="product-title">{{ product.title }}</h1>
-              <p class="product-subtitle">{{ product.subtitle }}</p>
               <div class="product-code">商品代碼: {{ product.productCode }}</div>
             </div>
 
@@ -344,11 +343,6 @@ const setActiveThumbnail = (index) => {
   line-height: 1.2;
 }
 
-.product-subtitle {
-  font-size: 1.1rem;
-  color: #666;
-  margin: 0 0 1rem 0;
-}
 
 .product-code {
   font-size: 0.9rem;
