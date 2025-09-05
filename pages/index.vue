@@ -8,28 +8,14 @@
         </div>
         <div class="products-grid">
           <ProductCard 
-            title="魔法少女" 
-            description="可愛的粉髮角色" 
-            price="NT$ 899" 
-            image-class="magical-girl" 
-          />
-          <ProductCard 
-            title="戰士" 
-            description="勇敢的金髮戰士" 
-            price="NT$ 1,049" 
-            image-class="warrior" 
-          />
-          <ProductCard 
-            title="動漫英雄" 
-            description="帥氣的黑髮主角" 
-            price="NT$ 1,199" 
-            image-class="anime-hero" 
-          />
-          <ProductCard 
-            title="限定公仔" 
-            description="限量版收藏品" 
-            price="NT$ 1,499" 
-            image-class="exclusive" 
+            v-for="product in regularProducts.slice(0, 8)"
+            :key="product.id"
+            :title="product.title" 
+            :description="product.description" 
+            :price="product.price" 
+            :image-class="product.imageClass"
+            :product-id="product.id"
+            :image-src="product.mainImage"
           />
         </div>
       </div>
@@ -46,16 +32,14 @@
         </div>
         <div class="limited-grid">
           <LimitedCard 
-            title="收藏家版" 
-            description="高級粉髮戰士" 
-            price="NT$ 2,399" 
-            image-class="collector" 
-          />
-          <LimitedCard 
-            title="獨家版" 
-            description="稀有黑髮戰士" 
-            price="NT$ 2,699" 
-            image-class="exclusive-edition" 
+            v-for="product in limitedProducts"
+            :key="product.id"
+            :title="product.title" 
+            :description="product.description" 
+            :price="product.price" 
+            :image-class="product.imageClass"
+            :product-id="product.id"
+            :image-src="product.mainImage"
           />
         </div>
       </div>
@@ -76,28 +60,14 @@
         </div>
         <div class="figurines-grid">
           <FigurineCard 
-            title="優雅設計" 
-            description="美麗的金髮藍裙角色" 
-            price="NT$ 1,379" 
-            image-class="elegant" 
-          />
-          <FigurineCard 
-            title="可愛版" 
-            description="可愛的粉髮角色" 
-            price="NT$ 989" 
-            image-class="adorable" 
-          />
-          <FigurineCard 
-            title="收藏家版" 
-            description="獨家黑白粉設計" 
-            price="NT$ 1,979" 
-            image-class="collectors-edition" 
-          />
-          <FigurineCard 
-            title="獨家設計" 
-            description="獨特的藍白配色" 
-            price="NT$ 1,679" 
-            image-class="exclusive-design" 
+            v-for="product in regularProducts.slice(8, 16)"
+            :key="product.id"
+            :title="product.title" 
+            :description="product.description" 
+            :price="product.price" 
+            :image-class="product.imageClass"
+            :product-id="product.id"
+            :image-src="product.mainImage"
           />
         </div>
       </div>
@@ -107,7 +77,12 @@
 </template>
 
 <script setup>
-// 動漫公仔官方網站主頁面
+// 載入商品資料
+import productsData from '~/data/products.json'
+
+// 分離一般商品和限量版商品
+const regularProducts = productsData.filter(product => !product.isLimited)
+const limitedProducts = productsData.filter(product => product.isLimited)
 </script>
 
 <style scoped>

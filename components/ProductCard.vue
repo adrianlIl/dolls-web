@@ -1,24 +1,21 @@
 <template>
-  <div class="product-card">
-    <div class="product-image" :class="imageClass">
-      <img :src="imageSrc" :alt="title" />
+  <NuxtLink :to="`/product/${productId}`" class="product-card-link">
+    <div class="product-card">
+      <div class="product-image" :class="imageClass">
+        <img :src="imageSrc" :alt="title" />
+      </div>
+      <div class="product-info">
+        <h3>{{ title }}</h3>
+        <span class="price">{{ price }}</span>
+      </div>
     </div>
-    <div class="product-info">
-      <h3>{{ title }}</h3>
-      <p>{{ description }}</p>
-      <span class="price">{{ price }}</span>
-    </div>
-  </div>
+  </NuxtLink>
 </template>
 
 <script setup>
 // 產品卡片組件
-defineProps({
+const props = defineProps({
   title: {
-    type: String,
-    required: true
-  },
-  description: {
     type: String,
     required: true
   },
@@ -33,17 +30,30 @@ defineProps({
   imageClass: {
     type: String,
     default: ''
+  },
+  productId: {
+    type: [String, Number],
+    default: 1
   }
 })
 </script>
 
 <style scoped>
+.product-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .product-card {
   background: white;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s;
+  height: 440px; /* 調整高度以配合新的圖片高度 */
+  display: flex;
+  flex-direction: column;
 }
 
 .product-card:hover {
@@ -52,7 +62,7 @@ defineProps({
 
 .product-image {
   width: 100%;
-  height: 320px;
+  height: 320px; /* 增加高度以減少裁切 */
   border-radius: 15px 15px 0 0;
   background: linear-gradient(45deg, #ff6b9d, #ff8fab);
   position: relative;
@@ -61,36 +71,45 @@ defineProps({
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  flex-shrink: 0; /* 防止圖片區域縮小 */
 }
 
 .product-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
   border-radius: 15px 15px 0 0;
 }
 
 .product-info {
-  padding: 0.3rem 0.8rem 0.6rem;
+  padding: 1rem;
+  flex: 1; /* 讓文字區域填滿剩餘空間 */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .product-info h3 {
   font-size: 1rem;
   color: #333;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
   font-weight: 600;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 限制最多2行 */
+  line-clamp: 2; /* 標準屬性 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.product-info p {
-  font-size: 0.8rem;
-  color: #666;
-  margin-bottom: 0.3rem;
-}
 
 .product-info .price {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: #ff6b9d;
   font-weight: 700;
+  margin-top: auto; /* 推到底部 */
 }
 
 /* 特殊樣式類別 */
@@ -207,7 +226,7 @@ defineProps({
 /* 響應式設計 */
 @media (max-width: 768px) {
   .product-image {
-    height: 280px;
+    height: 360px;
   }
   
   .product-info {
@@ -218,9 +237,6 @@ defineProps({
     font-size: 0.9rem;
   }
   
-  .product-info p {
-    font-size: 0.75rem;
-  }
   
   .product-info .price {
     font-size: 0.85rem;

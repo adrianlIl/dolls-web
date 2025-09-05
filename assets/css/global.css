@@ -10,6 +10,10 @@ html, body {
   padding: 0;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
 }
 
 html::-webkit-scrollbar,
@@ -21,4 +25,36 @@ body::-webkit-scrollbar {
 .container {
   max-width: 100%;
   overflow-x: hidden;
+}
+
+/* 防止 FOUC (Flash of Unstyled Content) */
+#__nuxt {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 確保圖片載入時不會造成佈局偏移 */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 防止文字載入時的佈局偏移 */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+/* 確保按鈕和連結的樣式 */
+button, a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* 防止表格造成水平滾動 */
+table {
+  width: 100%;
+  border-collapse: collapse;
 }

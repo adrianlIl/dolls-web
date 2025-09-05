@@ -49,6 +49,8 @@
             :description="product.description"
             :price="product.price"
             :image-class="product.imageClass"
+            :product-id="product.id"
+            :image-src="product.mainImage"
           />
         </div>
       </div>
@@ -71,176 +73,11 @@
 
 <script setup>
 // 全部商品頁面
-const products = [
-  {
-    id: 1,
-    title: "【框畫工作室現貨】H2",
-    description: "《富岡義勇》裝飾畫 | 鬼滅之刃",
-    price: "NT$ 1,230",
-    imageClass: "giyu-tomioka"
-  },
-  {
-    id: 2,
-    title: "【限量版】炭治郎",
-    description: "《竈門炭治郎》公仔 | 鬼滅之刃",
-    price: "NT$ 2,580",
-    imageClass: "tanjiro"
-  },
-  {
-    id: 3,
-    title: "【收藏版】禰豆子",
-    description: "《竈門禰豆子》手辦 | 鬼滅之刃",
-    price: "NT$ 3,200",
-    imageClass: "nezuko"
-  },
-  {
-    id: 4,
-    title: "【限定版】善逸",
-    description: "《我妻善逸》模型 | 鬼滅之刃",
-    price: "NT$ 2,890",
-    imageClass: "zenitsu"
-  },
-  {
-    id: 5,
-    title: "【特典版】伊之助",
-    description: "《嘴平伊之助》雕像 | 鬼滅之刃",
-    price: "NT$ 3,450",
-    imageClass: "inosuke"
-  },
-  {
-    id: 6,
-    title: "【豪華版】煉獄杏壽郎",
-    description: "《煉獄杏壽郎》手辦 | 鬼滅之刃",
-    price: "NT$ 4,200",
-    imageClass: "rengoku"
-  },
-  {
-    id: 7,
-    title: "【特別版】胡蝶忍",
-    description: "《胡蝶忍》模型 | 鬼滅之刃",
-    price: "NT$ 2,980",
-    imageClass: "shinobu"
-  },
-  {
-    id: 8,
-    title: "【珍藏版】宇髄天元",
-    description: "《宇髄天元》公仔 | 鬼滅之刃",
-    price: "NT$ 3,680",
-    imageClass: "uzui"
-  },
-  {
-    id: 9,
-    title: "【限定版】蝴蝶香奈惠",
-    description: "《蝴蝶香奈惠》手辦 | 鬼滅之刃",
-    price: "NT$ 3,120",
-    imageClass: "kanae"
-  },
-  {
-    id: 10,
-    title: "【特典版】不死川實彌",
-    description: "《不死川實彌》模型 | 鬼滅之刃",
-    price: "NT$ 3,350",
-    imageClass: "sanemi"
-  },
-  {
-    id: 11,
-    title: "【豪華版】富岡義勇",
-    description: "《富岡義勇》雕像 | 鬼滅之刃",
-    price: "NT$ 4,500",
-    imageClass: "giyu-tomioka"
-  },
-  {
-    id: 12,
-    title: "【收藏版】栗花落香奈乎",
-    description: "《栗花落香奈乎》手辦 | 鬼滅之刃",
-    price: "NT$ 2,750",
-    imageClass: "kanroji"
-  },
-  {
-    id: 13,
-    title: "【限量版】時透無一郎",
-    description: "《時透無一郎》模型 | 鬼滅之刃",
-    price: "NT$ 3,800",
-    imageClass: "muichiro"
-  },
-  {
-    id: 14,
-    title: "【特別版】甘露寺蜜璃",
-    description: "《甘露寺蜜璃》手辦 | 鬼滅之刃",
-    price: "NT$ 3,100",
-    imageClass: "mitsuri"
-  },
-  {
-    id: 15,
-    title: "【珍藏版】伊黑小芭內",
-    description: "《伊黑小芭內》雕像 | 鬼滅之刃",
-    price: "NT$ 3,600",
-    imageClass: "iguro"
-  },
-  {
-    id: 16,
-    title: "【特典版】悲鳴嶼行冥",
-    description: "《悲鳴嶼行冥》模型 | 鬼滅之刃",
-    price: "NT$ 4,100",
-    imageClass: "gyomei"
-  },
-  {
-    id: 17,
-    title: "【限定版】鬼舞辻無慘",
-    description: "《鬼舞辻無慘》手辦 | 鬼滅之刃",
-    price: "NT$ 4,800",
-    imageClass: "muzan"
-  },
-  {
-    id: 18,
-    title: "【豪華版】猗窩座",
-    description: "《猗窩座》雕像 | 鬼滅之刃",
-    price: "NT$ 4,200",
-    imageClass: "akaza"
-  },
-  {
-    id: 19,
-    title: "【收藏版】童磨",
-    description: "《童磨》手辦 | 鬼滅之刃",
-    price: "NT$ 3,900",
-    imageClass: "doma"
-  },
-  {
-    id: 20,
-    title: "【特別版】妓夫太郎",
-    description: "《妓夫太郎》模型 | 鬼滅之刃",
-    price: "NT$ 3,400",
-    imageClass: "gyutaro"
-  },
-  {
-    id: 21,
-    title: "【限量版】墮姬",
-    description: "《墮姬》手辦 | 鬼滅之刃",
-    price: "NT$ 3,200",
-    imageClass: "daki"
-  },
-  {
-    id: 22,
-    title: "【特典版】半天狗",
-    description: "《半天狗》雕像 | 鬼滅之刃",
-    price: "NT$ 3,700",
-    imageClass: "hantengu"
-  },
-  {
-    id: 23,
-    title: "【珍藏版】玉壺",
-    description: "《玉壺》模型 | 鬼滅之刃",
-    price: "NT$ 3,500",
-    imageClass: "gyokko"
-  },
-  {
-    id: 24,
-    title: "【豪華版】黑死牟",
-    description: "《黑死牟》手辦 | 鬼滅之刃",
-    price: "NT$ 4,600",
-    imageClass: "kokushibo"
-  }
-]
+// 載入商品資料
+import productsData from '~/data/products.json'
+
+// 使用動態商品資料
+const products = productsData
 </script>
 
 <style scoped>
