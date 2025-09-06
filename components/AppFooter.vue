@@ -8,18 +8,18 @@
             <img src="/logo/logo.png" alt="全擊GK潮流公仔" class="logo-image" />
           </div>
           <div class="footer-links">
-            <a href="#" class="footer-link">品牌介紹</a>
-            <a href="#" class="footer-link">LINE線上客服</a>
+            <NuxtLink to="/about" class="footer-link">品牌介紹</NuxtLink>
+            <NuxtLink to="/service" class="footer-link">LINE線上客服</NuxtLink>
           </div>
         </div>
         
         <div class="footer-center">
           <h4>顧客服務</h4>
           <div class="footer-links">
-            <a href="#" class="footer-link">購物須知及流程</a>
-            <a href="#" class="footer-link">售後服務條款</a>
-            <a href="#" class="footer-link">會員福利權益</a>
-            <a href="#" class="footer-link">常見問題</a>
+            <NuxtLink to="/service" class="footer-link">購物須知及流程</NuxtLink>
+            <NuxtLink to="/service" class="footer-link">售後服務條款</NuxtLink>
+            <NuxtLink to="/service" class="footer-link">會員福利權益</NuxtLink>
+            <NuxtLink to="/service" class="footer-link">常見問題</NuxtLink>
           </div>
         </div>
         
@@ -46,11 +46,11 @@
           <p>全擊股份有限公司 | 統一編號:92702176</p>
         </div>
         <div class="policy-links">
-          <a href="#">退換貨政策</a>
+          <NuxtLink to="/service">退換貨政策</NuxtLink>
           <span class="separator">|</span>
-          <a href="#">隱私權政策</a>
+          <NuxtLink to="/service">隱私權政策</NuxtLink>
           <span class="separator">|</span>
-          <span>&copy; 2020 SCC Toys All rights reserved</span>
+          <span>&copy; 2024 全擊GK潮流公仔 All rights reserved</span>
         </div>
       </div>
     </div>

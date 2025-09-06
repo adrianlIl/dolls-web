@@ -16,6 +16,7 @@
             :image-class="product.imageClass"
             :product-id="product.id"
             :image-src="product.mainImage"
+            :is-sold-out="product.isSoldOut || false"
           />
         </div>
       </div>
@@ -40,6 +41,7 @@
             :image-class="product.imageClass"
             :product-id="product.id"
             :image-src="product.mainImage"
+            :is-sold-out="product.isSoldOut || false"
           />
         </div>
       </div>
@@ -48,7 +50,22 @@
     <!-- Pre-order Exclusives -->
     <section class="preorder-exclusives">
       <div class="container">
-        <img src="/images/preorder/preorder-banner.jpg" alt="預購專區" class="preorder-banner-image" />
+        <img 
+          src="/images/preorder/preorder-banner.jpg" 
+          alt="預購專區" 
+          class="preorder-banner-image"
+          @error="handleImageError"
+          @load="handleImageLoad"
+          :style="{ display: imageLoaded ? 'block' : 'none' }"
+        />
+        <div 
+          v-if="!imageLoaded" 
+          class="preorder-banner-placeholder"
+        >
+          <div class="banner-icon">🛍️</div>
+          <div class="banner-text">預購專區</div>
+          <div class="banner-subtitle">即將推出精彩商品</div>
+        </div>
       </div>
     </section>
 
@@ -68,6 +85,7 @@
             :image-class="product.imageClass"
             :product-id="product.id"
             :image-src="product.mainImage"
+            :is-sold-out="product.isSoldOut || false"
           />
         </div>
       </div>
@@ -77,12 +95,46 @@
 </template>
 
 <script setup>
+import { ref, onMounted } from 'vue'
+
 // 載入商品資料
 import productsData from '~/data/products.json'
 
 // 分離一般商品和限量版商品
 const regularProducts = productsData.filter(product => !product.isLimited)
 const limitedProducts = productsData.filter(product => product.isLimited)
+
+// 預購專區圖片載入狀態
+const imageLoaded = ref(false)
+const imageError = ref(false)
+
+// 處理圖片載入成功
+const handleImageLoad = () => {
+  imageLoaded.value = true
+  imageError.value = false
+  console.log('預購專區圖片載入成功')
+}
+
+// 處理圖片載入失敗
+const handleImageError = (event) => {
+  imageLoaded.value = false
+  imageError.value = true
+  console.error('預購專區圖片載入失敗:', event)
+  
+  // 嘗試重新載入圖片
+  setTimeout(() => {
+    if (imageError.value) {
+      const img = event.target
+      img.src = img.src + '?t=' + Date.now() // 添加時間戳避免快取
+    }
+  }, 2000)
+}
+
+// 組件掛載時檢查圖片狀態
+onMounted(() => {
+  // 預設顯示圖片，如果載入失敗則顯示備用方案
+  imageLoaded.value = true
+})
 </script>
 
 <style scoped>
@@ -161,23 +213,15 @@ const limitedProducts = productsData.filter(product => product.isLimited)
   overflow: hidden;
   position: relative;
   border: 3px solid #333;
-  box-shadow: 
-    4px 4px 0 #ff6b9d,
-    8px 8px 0 #4ecdc4,
-    12px 12px 0 #45b7d1,
-    16px 16px 0 #96ceb4;
-  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.product-card:hover {
-  transform: translateY(-5px);
-}
 
 .product-image {
   width: 100%;
   height: 320px;
   border-radius: 15px 15px 0 0;
-  background: linear-gradient(45deg, #ff6b9d, #ff8fab);
+  background: #f8f9fa;
   position: relative;
   margin: 0;
   display: flex;
@@ -198,19 +242,19 @@ const limitedProducts = productsData.filter(product => product.isLimited)
 }
 
 .magical-girl {
-  background: linear-gradient(45deg, #ff69b4, #ffb6c1);
+  background: #ff69b4;
 }
 
 .warrior {
-  background: linear-gradient(45deg, #87ceeb, #b0e0e6);
+  background: #87ceeb;
 }
 
 .anime-hero {
-  background: linear-gradient(45deg, #333, #666);
+  background: #333;
 }
 
 .exclusive {
-  background: linear-gradient(45deg, #9370db, #ba55d3);
+  background: #9370db;
 }
 
 .product-info h3 {
@@ -267,7 +311,7 @@ const limitedProducts = productsData.filter(product => product.isLimited)
 
 .limited-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
   padding: 2rem 0;
@@ -282,23 +326,15 @@ const limitedProducts = productsData.filter(product => product.isLimited)
   overflow: hidden;
   position: relative;
   border: 3px solid #333;
-  box-shadow: 
-    4px 4px 0 #ff6b9d,
-    8px 8px 0 #4ecdc4,
-    12px 12px 0 #45b7d1,
-    16px 16px 0 #96ceb4;
-  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.limited-card:hover {
-  transform: translateY(-10px);
-}
 
 .limited-image {
   width: 100%;
   height: 380px;
   border-radius: 15px 15px 0 0;
-  background: linear-gradient(45deg, #ff6b9d, #ff8fab);
+  background: #f8f9fa;
   margin: 0;
   display: flex;
   align-items: center;
@@ -319,11 +355,11 @@ const limitedProducts = productsData.filter(product => product.isLimited)
 }
 
 .collector {
-  background: linear-gradient(45deg, #ff69b4, #ff1493);
+  background: #ff69b4;
 }
 
 .exclusive-edition {
-  background: linear-gradient(45deg, #333, #ff69b4);
+  background: #333;
 }
 
 /* Pre-order Exclusives */
@@ -335,15 +371,84 @@ const limitedProducts = productsData.filter(product => product.isLimited)
 .preorder-banner-image {
   width: 100%;
   height: auto;
-  display: block;
   border-radius: 15px;
-  
   transition: transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.preorder-banner-image:hover {
-  transform: translateY(-5px);
+
+.preorder-banner-placeholder {
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(135deg, #ff6b9d 0%, #ff8fab 100%);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(255, 107, 157, 0.3);
+  position: relative;
+  overflow: hidden;
 }
+
+.preorder-banner-placeholder::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.preorder-banner-placeholder:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(255, 107, 157, 0.4);
+}
+
+.banner-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.banner-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.banner-subtitle {
+  font-size: 1rem;
+  opacity: 0.9;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
 
 /* Featured Figurines */
 .featured-figurines {
@@ -353,7 +458,7 @@ const limitedProducts = productsData.filter(product => product.isLimited)
 
 .figurines-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
   padding: 2rem 0;
@@ -368,23 +473,15 @@ const limitedProducts = productsData.filter(product => product.isLimited)
   overflow: hidden;
   position: relative;
   border: 3px solid #333;
-  box-shadow: 
-    4px 4px 0 #ff6b9d,
-    8px 8px 0 #4ecdc4,
-    12px 12px 0 #45b7d1,
-    16px 16px 0 #96ceb4;
-  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.figurine-card:hover {
-  transform: translateY(-5px);
-}
 
 .figurine-image {
   width: 100%;
   height: 320px;
   border-radius: 15px 15px 0 0;
-  background: linear-gradient(45deg, #ff6b9d, #ff8fab);
+  background: #f8f9fa;
   margin: 0;
   display: flex;
   align-items: center;
@@ -405,24 +502,66 @@ const limitedProducts = productsData.filter(product => product.isLimited)
 }
 
 .elegant {
-  background: linear-gradient(45deg, #87ceeb, #b0e0e6);
+  background: #87ceeb;
 }
 
 .adorable {
-  background: linear-gradient(45deg, #ff69b4, #ffb6c1);
+  background: #ff69b4;
 }
 
 .collectors-edition {
-  background: linear-gradient(45deg, #333, #ff69b4);
+  background: #333;
 }
 
 .exclusive-design {
-  background: linear-gradient(45deg, #87ceeb, #fff);
+  background: #87ceeb;
 }
 
 
 /* 響應式設計 */
 @media (max-width: 768px) {
-  /* Mobile responsive styles */
+  .products-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem 3px;
+    justify-content: center;
+  }
+  
+  .limited-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem 3px;
+    justify-content: center;
+  }
+  
+  .figurines-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem 3px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem 3px;
+    justify-content: center;
+    max-width: 300px;
+    margin: 1rem auto;
+  }
+  
+  .limited-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem 3px;
+    justify-content: center;
+    max-width: 300px;
+    margin: 1rem auto;
+  }
+  
+  .figurines-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem 3px;
+    justify-content: center;
+    max-width: 300px;
+    margin: 1rem auto;
+  }
 }
 </style>

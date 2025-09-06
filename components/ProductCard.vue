@@ -1,12 +1,15 @@
 <template>
   <NuxtLink :to="`/product/${productId}`" class="product-card-link">
-    <div class="product-card">
+    <div class="product-card" :class="{ 'sold-out': isSoldOut }">
       <div class="product-image" :class="imageClass">
         <img :src="imageSrc" :alt="title" />
+        <div v-if="isSoldOut" class="sold-out-overlay">
+          <div class="sold-out-badge">售完</div>
+        </div>
       </div>
       <div class="product-info">
         <h3>{{ title }}</h3>
-        <span class="price">{{ price }}</span>
+        <span class="price" :class="{ 'sold-out-price': isSoldOut }">{{ price }}</span>
       </div>
     </div>
   </NuxtLink>
@@ -34,6 +37,10 @@ const props = defineProps({
   productId: {
     type: [String, Number],
     default: 1
+  },
+  isSoldOut: {
+    type: Boolean,
+    default: false
   }
 })
 </script>
@@ -50,7 +57,7 @@ const props = defineProps({
   border-radius: 15px;
   overflow: hidden;
   transition: transform 0.3s;
-  height: 440px; /* 調整高度以配合新的圖片高度 */
+  height: 400px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -61,6 +68,9 @@ const props = defineProps({
     12px 12px 0 #45b7d1,
     16px 16px 0 #96ceb4;
   backdrop-filter: blur(10px);
+  max-width: 350px;
+  width: 100%;
+  aspect-ratio: 0.8;
 }
 
 .product-card:hover {
@@ -69,7 +79,7 @@ const props = defineProps({
 
 .product-image {
   width: 100%;
-  height: 320px; /* 增加高度以減少裁切 */
+  height: 100%;
   border-radius: 15px 15px 0 0;
   background: linear-gradient(45deg, #ff6b9d, #ff8fab);
   position: relative;
@@ -90,17 +100,29 @@ const props = defineProps({
 }
 
 .product-info {
-  padding: 1rem;
-  flex: 1; /* 讓文字區域填滿剩餘空間 */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  padding: 2rem 1rem 1rem;
+  color: white;
+  z-index: 2;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
+}
+
+.product-info .price {
+  align-self: flex-end;
+  margin-top: 0.5rem;
+  margin-right: 10px;
 }
 
 .product-info h3 {
   font-size: 1rem;
-  color: #333;
-  margin-bottom: 0.5rem;
+  color: white;
+  margin-bottom: 0.75rem;
   font-weight: 600;
   line-height: 1.3;
   display: -webkit-box;
@@ -109,6 +131,7 @@ const props = defineProps({
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -116,7 +139,45 @@ const props = defineProps({
   font-size: 1.1rem;
   color: #ff6b9d;
   font-weight: 700;
-  margin-top: auto; /* 推到底部 */
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* 售完狀態樣式 */
+.product-card.sold-out {
+  opacity: 0.6;
+  filter: grayscale(0.3);
+}
+
+.sold-out-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 1rem;
+  z-index: 3;
+}
+
+.sold-out-badge {
+  background: #dc3545;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border: 2px solid white;
+}
+
+.sold-out-price {
+  color: #6c757d !important;
+  text-decoration: line-through;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 /* 特殊樣式類別 */
@@ -233,7 +294,11 @@ const props = defineProps({
 /* 響應式設計 */
 @media (max-width: 768px) {
   .product-image {
-    height: 360px;
+    height: 100%;
+  }
+  
+  .product-card {
+    max-width: 300px;
   }
   
   .product-info {

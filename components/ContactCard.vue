@@ -57,18 +57,14 @@ const showQRCode = ref(false)
   transition: transform 0.3s ease;
 }
 
-.contact-banner:hover {
-  transform: scale(1.02);
-}
 
 .banner-content {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #667eea;
   border-radius: 15px;
   padding: 2rem 3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 10px 30px rgba(214, 51, 132, 0.3);
   position: relative;
   overflow: hidden;
 }
@@ -103,13 +99,9 @@ const showQRCode = ref(false)
   background: white;
   border-radius: 12px;
   padding: 1rem;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
 }
 
-.qr-container:hover {
-  transform: scale(1.05);
-}
 
 .qr-code {
   width: 120px;
@@ -138,7 +130,6 @@ const showQRCode = ref(false)
   align-items: center;
   justify-content: center;
   z-index: 1000;
-  backdrop-filter: blur(5px);
 }
 
 .qr-modal-content {
@@ -148,8 +139,6 @@ const showQRCode = ref(false)
   max-width: 400px;
   width: 90%;
   position: relative;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-  animation: modalSlideIn 0.3s ease-out;
 }
 
 .close-btn {
@@ -197,16 +186,6 @@ const showQRCode = ref(false)
   margin-top: 1rem;
 }
 
-@keyframes modalSlideIn {
-  from {
-    opacity: 0;
-    transform: translateY(-50px) scale(0.9);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
 
 /* 響應式設計 */
 @media (max-width: 768px) {

@@ -6,9 +6,9 @@
         <nav class="breadcrumb-nav">
           <NuxtLink to="/products" class="breadcrumb-link">全部商品</NuxtLink>
           <span class="breadcrumb-separator">/</span>
-          <span class="breadcrumb-link">框畫商品</span>
+          <NuxtLink to="/featured" class="breadcrumb-link">精選商品</NuxtLink>
           <span class="breadcrumb-separator">/</span>
-          <span class="breadcrumb-current">《工作室現貨》</span>
+          <span class="breadcrumb-current">{{ product.title }}</span>
         </nav>
       </div>
     </div>
@@ -121,7 +121,7 @@ const isLoading = ref(true)
 // 載入 content.txt 內容
 const loadContent = async () => {
   try {
-    const response = await fetch(`/%20commodity/${productId}/text/content.txt`)
+    const response = await fetch(`/ commodity/${productId}/text/content.txt`)
     if (response.ok) {
       contentData.value = await response.text()
     } else {
@@ -285,8 +285,8 @@ const setActiveThumbnail = (index) => {
   border: none;
   border-radius: 20px;
   overflow: hidden;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  background: #f8f9fa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   position: relative;
 }
@@ -298,9 +298,6 @@ const setActiveThumbnail = (index) => {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
-  border-radius: 20px;
-  pointer-events: none;
 }
 
 
@@ -328,8 +325,9 @@ const setActiveThumbnail = (index) => {
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   flex-shrink: 0;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  background: #f8f9fa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
   position: relative;
   overflow: hidden;
 }
@@ -351,13 +349,11 @@ const setActiveThumbnail = (index) => {
 
 .thumbnail-image.active {
   transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 6px 20px rgba(255, 107, 157, 0.4);
-  background: linear-gradient(135deg, rgba(255, 107, 157, 0.1) 0%, rgba(255, 107, 157, 0.05) 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .thumbnail-image.active::before {
   opacity: 1;
-  background: linear-gradient(135deg, rgba(255, 107, 157, 0.2) 0%, rgba(255, 107, 157, 0.1) 100%);
 }
 
 /* Product Text Information */
@@ -443,7 +439,7 @@ const setActiveThumbnail = (index) => {
 .contact-btn {
   width: 100%;
   padding: 1rem 2rem;
-  background: linear-gradient(45deg, #ff6b9d, #ff8fab);
+  background: #f8f9fa;
   color: white;
   border: none;
   border-radius: 8px;
@@ -536,8 +532,8 @@ const setActiveThumbnail = (index) => {
   object-fit: contain;
   object-position: center;
   border-radius: 24px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: #f8f9fa;
   transition: all 0.3s ease;
   position: relative;
 }
@@ -549,7 +545,6 @@ const setActiveThumbnail = (index) => {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
   border-radius: 24px;
   pointer-events: none;
 }
