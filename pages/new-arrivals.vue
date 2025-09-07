@@ -198,8 +198,9 @@ watch(currentFilter, () => {
 
 <style scoped>
 .new-arrivals-page {
-  padding: 2rem 0;
+  padding: 2rem 0 6rem 0; /* 增加底部 padding */
   background: transparent;
+  min-height: 100vh; /* 確保頁面有最小高度 */
 }
 
 .container {
@@ -372,7 +373,7 @@ watch(currentFilter, () => {
 
 /* Products Section */
 .products-section {
-  padding: 2rem 0;
+  padding: 2rem 0 4rem 0; /* 增加底部 padding */
   background: transparent;
 }
 
@@ -381,8 +382,10 @@ watch(currentFilter, () => {
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
+  margin-bottom: 3rem; /* 為底部卡片留出額外空間 */
   justify-items: center;
   max-width: 100%;
+  padding-bottom: 2rem; /* 額外的底部 padding */
 }
 
 /* 當商品數量少時，使用居中佈局 */
@@ -396,7 +399,7 @@ watch(currentFilter, () => {
 
 /* Pagination */
 .pagination-section {
-  padding: 2rem 0;
+  padding: 3rem 0 4rem 0; /* 增加上下 padding */
   background: transparent;
 }
 

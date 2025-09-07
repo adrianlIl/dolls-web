@@ -55,7 +55,7 @@ const props = defineProps({
 .product-card {
   background: rgba(255, 255, 255, 0.95);
   border-radius: 15px;
-  overflow: hidden;
+  overflow: visible; /* 改為 visible 讓陰影不被裁切 */
   transition: transform 0.3s;
   height: 400px;
   display: flex;
@@ -71,6 +71,7 @@ const props = defineProps({
   max-width: 350px;
   width: 100%;
   aspect-ratio: 0.8;
+  margin-bottom: 20px; /* 為陰影留出空間 */
 }
 
 .product-card:hover {
