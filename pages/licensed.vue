@@ -282,14 +282,18 @@ const getProductTags = (product) => {
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
+  padding: 20px 0; /* 為陰影留出上下空間 */
 }
 
 .licensed-product-card {
-  background: white;
+  background: white !important;
   border-radius: 15px;
-  overflow: hidden;
+  overflow: visible;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 20px; /* 為陰影留出空間 */
 }
 
 .licensed-product-card:hover {
@@ -299,8 +303,9 @@ const getProductTags = (product) => {
 
 /* 售完狀態樣式 */
 .licensed-product-card.sold-out {
-  opacity: 0.6;
-  filter: grayscale(0.3);
+  opacity: 0.8;
+  filter: grayscale(0.2);
+  background: white !important;
 }
 
 .sold-out-overlay {
@@ -338,6 +343,7 @@ const getProductTags = (product) => {
   position: relative;
   height: 400px;
   overflow: hidden;
+  border-radius: 15px 15px 0 0;
 }
 
 .product-image img {
@@ -372,6 +378,10 @@ const getProductTags = (product) => {
 
 .product-info {
   padding: 1.5rem;
+  background: white !important;
+  border-radius: 0 0 15px 15px;
+  position: relative;
+  z-index: 10;
 }
 
 .product-name {

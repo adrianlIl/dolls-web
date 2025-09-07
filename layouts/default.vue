@@ -22,6 +22,9 @@
     
     <!-- Footer -->
     <AppFooter />
+    
+    <!-- Go to Top Button -->
+    <GoTop />
   </div>
 </template>
 

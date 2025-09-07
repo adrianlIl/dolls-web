@@ -263,6 +263,8 @@ const setActiveThumbnail = (index) => {
 .product-detail-section {
   padding: 2rem 0;
   background: white;
+  position: relative;
+  z-index: 5;
 }
 
 .product-detail-content {
@@ -393,9 +395,13 @@ const setActiveThumbnail = (index) => {
 .shipping-notes {
   margin: 1rem 0;
   padding: 1rem;
-  background: #f8f9fa;
+  background: #ffffff !important;
   border-radius: 8px;
   border-left: 4px solid #ff6b9d;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  position: relative;
+  z-index: 10;
 }
 
 .shipping-note {
@@ -454,8 +460,12 @@ const setActiveThumbnail = (index) => {
 .product-details {
   margin-top: 2rem;
   padding: 1.5rem;
-  background: #f8f9fa;
+  background: #ffffff !important;
   border-radius: 8px;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: relative;
+  z-index: 10;
 }
 
 .product-details h3 {
@@ -499,7 +509,7 @@ const setActiveThumbnail = (index) => {
 }
 
 .content-text {
-  background: #f8f9fa;
+  background: #ffffff !important;
   border: 1px solid #e9ecef;
   border-radius: 8px;
   padding: 1.5rem;
@@ -511,6 +521,9 @@ const setActiveThumbnail = (index) => {
   word-wrap: break-word;
   max-height: 400px;
   overflow-y: auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 10;
 }
 
 /* Full Size Image Gallery */
