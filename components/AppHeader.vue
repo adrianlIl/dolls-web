@@ -13,10 +13,10 @@
         <NuxtLink to="/new-arrivals" class="nav-link">最新上架</NuxtLink>
         <NuxtLink to="/featured" class="nav-link">新品推薦</NuxtLink>
         <NuxtLink to="/sale" class="nav-link">限時特惠</NuxtLink>
-        <NuxtLink to="/accessories" class="nav-link">公仔周邊</NuxtLink>
         <NuxtLink to="/licensed" class="nav-link">授權雕像</NuxtLink>
         <NuxtLink to="/service" class="nav-link">售後服務</NuxtLink>
         <NuxtLink to="/about" class="nav-link">品牌介紹</NuxtLink>
+        <a href="https://tw.news.yahoo.com/%E6%96%B0%E5%8C%97gk%E5%85%AC%E4%BB%94%E6%8E%A8%E8%96%A6%E5%93%81%E7%89%8C%EF%BC%8C%E5%96%9C%E6%84%9B%E6%94%B6%E8%97%8F%E5%85%AC%E4%BB%94%E9%A6%96%E9%81%B8%E5%AE%83-070605999.html" target="_blank" rel="noopener noreferrer" class="nav-link">SCC®媒體報導</a>
       </nav>
       
       <!-- 桌面版搜尋框 -->
@@ -98,10 +98,10 @@
         <NuxtLink to="/new-arrivals" class="mobile-nav-link" @click="closeMobileMenu">最新上架</NuxtLink>
         <NuxtLink to="/featured" class="mobile-nav-link" @click="closeMobileMenu">新品推薦</NuxtLink>
         <NuxtLink to="/sale" class="mobile-nav-link" @click="closeMobileMenu">限時特惠</NuxtLink>
-        <NuxtLink to="/accessories" class="mobile-nav-link" @click="closeMobileMenu">公仔周邊</NuxtLink>
         <NuxtLink to="/licensed" class="mobile-nav-link" @click="closeMobileMenu">授權雕像</NuxtLink>
         <NuxtLink to="/service" class="mobile-nav-link" @click="closeMobileMenu">售後服務</NuxtLink>
         <NuxtLink to="/about" class="mobile-nav-link" @click="closeMobileMenu">品牌介紹</NuxtLink>
+        <a href="https://tw.news.yahoo.com/%E6%96%B0%E5%8C%97gk%E5%85%AC%E4%BB%94%E6%8E%A8%E8%96%A6%E5%93%81%E7%89%8C%EF%BC%8C%E5%96%9C%E6%84%9B%E6%94%B6%E8%97%8F%E5%85%AC%E4%BB%94%E9%A6%96%E9%81%B8%E5%AE%83-070605999.html" target="_blank" rel="noopener noreferrer" class="mobile-nav-link" @click="closeMobileMenu">SCC®媒體報導</a>
       </nav>
     </div>
     

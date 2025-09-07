@@ -150,12 +150,16 @@ onMounted(() => {
   line-height: 1.6;
   color: #333;
   background: transparent;
+  position: relative;
+  z-index: 1;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  position: relative;
+  z-index: 1;
 }
 
 
@@ -193,7 +197,9 @@ onMounted(() => {
 /* Featured Products */
 .featured-products {
   padding: 2rem 0;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.9);
+  position: relative;
+  z-index: 1;
 }
 
 .products-grid {
@@ -214,6 +220,7 @@ onMounted(() => {
   position: relative;
   border: 3px solid #333;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 2;
 }
 
 
@@ -306,7 +313,9 @@ onMounted(() => {
 /* Limited Edition */
 .limited-edition {
   padding: 2rem 0;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.9);
+  position: relative;
+  z-index: 1;
 }
 
 .limited-grid {
@@ -327,6 +336,7 @@ onMounted(() => {
   position: relative;
   border: 3px solid #333;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 2;
 }
 
 
@@ -365,7 +375,9 @@ onMounted(() => {
 /* Pre-order Exclusives */
 .preorder-exclusives {
   padding: 2rem 0;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.9);
+  position: relative;
+  z-index: 1;
 }
 
 .preorder-banner-image {
@@ -453,7 +465,9 @@ onMounted(() => {
 /* Featured Figurines */
 .featured-figurines {
   padding: 2rem 0;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.9);
+  position: relative;
+  z-index: 1;
 }
 
 .figurines-grid {
@@ -474,6 +488,7 @@ onMounted(() => {
   position: relative;
   border: 3px solid #333;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 2;
 }
 
 

@@ -25,10 +25,7 @@
             </p>
           </div>
           <div class="story-image">
-            <div class="placeholder-image">
-              <span class="placeholder-icon">🏢</span>
-              <span class="placeholder-text">品牌故事</span>
-            </div>
+            <img src="/images/preorder/company.jpg" alt="品牌故事" class="company-image" />
           </div>
         </div>
       </div>
@@ -239,27 +236,18 @@ const contactFeatures = [
   text-align: center;
 }
 
-.placeholder-image {
+.company-image {
   width: 100%;
   height: 300px;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  object-fit: cover;
+  object-position: center;
   border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-.placeholder-icon {
-  font-size: 4rem;
-  margin-bottom: 1rem;
-}
-
-.placeholder-text {
-  font-size: 1.2rem;
-  color: #666;
-  font-weight: 600;
+.company-image:hover {
+  transform: scale(1.02);
 }
 
 /* Section Divider */

@@ -3,7 +3,7 @@
     <!-- Sale Banner -->
     <PageHero
       title="限時特惠"
-      subtitle="精選商品9折起，價格不低於2000元，錯過再等一年！"
+      subtitle="精選商品9折起，錯過再等一年！"
       :badges="['限時搶購', '精選商品', '品質保證']"
       background="linear-gradient(135deg, #ff4757 0%, #ff6b9d 100%)"
     >
@@ -114,7 +114,7 @@ const saleFeatures = [
     id: 'curated',
     icon: '💰',
     title: '精選商品',
-    description: '價格不低於2000元的高品質商品'
+    description: '高品質商品'
   },
   {
     id: 'limited-supply',

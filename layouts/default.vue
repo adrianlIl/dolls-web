@@ -1,5 +1,12 @@
 <template>
   <div class="default-layout">
+    <!-- 塗鴉背景 -->
+    <SimpleDoodleBackground 
+      :animated="true" 
+      :opacity="0.4" 
+      theme="pink" 
+    />
+    
     <!-- Header -->
     <AppHeader />
     
