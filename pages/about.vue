@@ -243,12 +243,13 @@ const contactFeatures = [
   object-position: center;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  /* 移除 transition - 不需要動畫效果 */
 }
 
-.company-image:hover {
+/* 移除 hover 效果 - 公司圖片不需要 hover 效果 */
+/* .company-image:hover {
   transform: scale(1.02);
-}
+} */
 
 /* Section Divider */
 .section-divider {
@@ -301,15 +302,16 @@ const contactFeatures = [
   padding: 2rem;
   text-align: center;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease;
+  /* 移除 transition - 不需要動畫效果 */
   position: relative;
   z-index: 1;
 }
 
-.value-card:hover {
+/* 移除 hover 效果 - 價值觀卡片不需要 hover 效果 */
+/* .value-card:hover {
   transform: translateY(-5px);
   z-index: 10;
-}
+} */
 
 .value-icon {
   font-size: 3rem;
@@ -384,15 +386,16 @@ const contactFeatures = [
   padding: 2rem;
   text-align: center;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease;
+  /* 移除 transition - 不需要動畫效果 */
   position: relative;
   z-index: 1;
 }
 
-.contact-item:hover {
+/* 移除 hover 效果 - 聯絡資訊卡片不需要 hover 效果 */
+/* .contact-item:hover {
   transform: translateY(-5px);
   z-index: 10;
-}
+} */
 
 .contact-icon {
   font-size: 3rem;

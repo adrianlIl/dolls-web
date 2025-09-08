@@ -296,10 +296,11 @@ const getProductTags = (product) => {
   margin-bottom: 20px; /* 為陰影留出空間 */
 }
 
-.licensed-product-card:hover {
+/* 移除 hover 效果 - 授權雕像卡片不需要 hover 效果 */
+/* .licensed-product-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* 售完狀態樣式 */
 .licensed-product-card.sold-out {

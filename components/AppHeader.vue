@@ -1,3 +1,14 @@
+<!--
+  AppHeader 組件
+  用途：網站的主要導航欄組件
+  功能：
+  - 顯示網站 Logo 和品牌名稱
+  - 提供主要導航選單（首頁、精選、限時特惠、授權雕像、關於我們、服務）
+  - 包含搜尋功能
+  - 響應式設計，手機版有漢堡選單
+  - 滾動時會改變樣式（固定頂部）
+  使用場景：所有頁面的頂部導航
+-->
 <template>
   <header ref="header" class="header">
     <div class="container">
@@ -16,7 +27,6 @@
         <NuxtLink to="/licensed" class="nav-link">授權雕像</NuxtLink>
         <NuxtLink to="/service" class="nav-link">售後服務</NuxtLink>
         <NuxtLink to="/about" class="nav-link">品牌介紹</NuxtLink>
-        <a href="https://tw.news.yahoo.com/%E6%96%B0%E5%8C%97gk%E5%85%AC%E4%BB%94%E6%8E%A8%E8%96%A6%E5%93%81%E7%89%8C%EF%BC%8C%E5%96%9C%E6%84%9B%E6%94%B6%E8%97%8F%E5%85%AC%E4%BB%94%E9%A6%96%E9%81%B8%E5%AE%83-070605999.html" target="_blank" rel="noopener noreferrer" class="nav-link">SCC®媒體報導</a>
       </nav>
       
       <!-- 桌面版搜尋框 -->
@@ -56,14 +66,14 @@
           </svg>
         </button>
         
-        <!-- 桌面版多點按鈕 -->
-        <button class="icon-btn desktop-only">
+        <!-- 桌面版多點按鈕 - 目前沒用，先註解掉 -->
+        <!-- <button class="icon-btn desktop-only">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <circle cx="12" cy="12" r="1"></circle>
             <circle cx="12" cy="5" r="1"></circle>
             <circle cx="12" cy="19" r="1"></circle>
           </svg>
-        </button>
+        </button> -->
         
         <!-- 手機版漢堡按鈕 -->
         <button 
@@ -101,7 +111,6 @@
         <NuxtLink to="/licensed" class="mobile-nav-link" @click="closeMobileMenu">授權雕像</NuxtLink>
         <NuxtLink to="/service" class="mobile-nav-link" @click="closeMobileMenu">售後服務</NuxtLink>
         <NuxtLink to="/about" class="mobile-nav-link" @click="closeMobileMenu">品牌介紹</NuxtLink>
-        <a href="https://tw.news.yahoo.com/%E6%96%B0%E5%8C%97gk%E5%85%AC%E4%BB%94%E6%8E%A8%E8%96%A6%E5%93%81%E7%89%8C%EF%BC%8C%E5%96%9C%E6%84%9B%E6%94%B6%E8%97%8F%E5%85%AC%E4%BB%94%E9%A6%96%E9%81%B8%E5%AE%83-070605999.html" target="_blank" rel="noopener noreferrer" class="mobile-nav-link" @click="closeMobileMenu">SCC®媒體報導</a>
       </nav>
     </div>
     

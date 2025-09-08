@@ -1,3 +1,12 @@
+<!--
+  FeatureGrid 組件
+  用途：用於顯示特徵/功能卡片的網格佈局組件
+  功能：
+  - 支援 1-4 欄的響應式網格佈局
+  - 可顯示圖標、標題、描述和標籤
+  - 支援點擊事件（可選）
+  使用場景：about 頁面的價值觀卡片、聯絡資訊卡片等
+-->
 <template>
   <div class="features-grid" :class="`grid-cols-${columns}`">
     <div 
@@ -76,15 +85,16 @@ const handleFeatureClick = (feature) => {
   padding: 2rem;
   text-align: center;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease;
+  /* 移除 transition - 不需要動畫效果 */
   position: relative;
   z-index: 1;
 }
 
-.feature-card:hover {
+/* 移除 hover 效果 - FeatureGrid 卡片不需要 hover 效果 */
+/* .feature-card:hover {
   transform: translateY(-5px);
   z-index: 10;
-}
+} */
 
 .feature-icon {
   font-size: 3rem;

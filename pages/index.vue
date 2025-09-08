@@ -50,13 +50,23 @@
     <!-- Pre-order Exclusives -->
     <section class="preorder-exclusives">
       <div class="container">
+        <!-- Desktop banner -->
         <img 
+          v-if="imageLoaded"
           src="/images/preorder/preorder-banner.jpg" 
           alt="預購專區" 
-          class="preorder-banner-image"
+          class="preorder-banner-image preorder-banner-desktop"
           @error="handleImageError"
           @load="handleImageLoad"
-          :style="{ display: imageLoaded ? 'block' : 'none' }"
+        />
+        <!-- Mobile banner -->
+        <img 
+          v-if="imageLoaded"
+          src="/images/preorder/preorder-banner-app.jpg" 
+          alt="預購專區" 
+          class="preorder-banner-image preorder-banner-mobile"
+          @error="handleImageError"
+          @load="handleImageLoad"
         />
         <div 
           v-if="!imageLoaded" 
@@ -388,6 +398,16 @@ onMounted(() => {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
+/* Desktop banner - show by default, hide on mobile */
+.preorder-banner-desktop {
+  display: block;
+}
+
+/* Mobile banner - hide by default, show on mobile */
+.preorder-banner-mobile {
+  display: none;
+}
+
 
 .preorder-banner-placeholder {
   width: 100%;
@@ -551,6 +571,15 @@ onMounted(() => {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem 3px;
     justify-content: center;
+  }
+
+  /* Show mobile banner on mobile devices */
+  .preorder-banner-desktop {
+    display: none;
+  }
+
+  .preorder-banner-mobile {
+    display: block;
   }
 }
 

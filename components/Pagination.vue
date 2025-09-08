@@ -1,3 +1,14 @@
+<!--
+  Pagination 組件
+  用途：用於分頁導航的組件
+  功能：
+  - 顯示頁碼按鈕和導航箭頭
+  - 支援跳轉到指定頁面
+  - 顯示當前頁面和總頁數
+  - 具有活躍狀態的視覺反饋
+  - 響應式設計，適應不同螢幕尺寸
+  使用場景：商品列表、文章列表等需要分頁的頁面
+-->
 <template>
   <div class="pagination-section" v-if="totalPages > 1">
     <div class="container">

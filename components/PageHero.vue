@@ -1,3 +1,14 @@
+<!--
+  PageHero 組件
+  用途：用於頁面頂部英雄區塊的組件
+  功能：
+  - 顯示頁面主標題和副標題
+  - 可自定義背景漸層色彩
+  - 支援徽章標籤顯示
+  - 具有現代化的視覺設計
+  - 響應式設計，適應不同螢幕尺寸
+  使用場景：各頁面的頂部英雄區塊
+-->
 <template>
   <section class="hero-section" :style="{ background: background }">
     <div class="container">

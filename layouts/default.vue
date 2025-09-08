@@ -12,7 +12,10 @@
     
     <!-- Banner -->
     <section class="banner-section">
-      <img src="/banner/banner.png" alt="動漫公仔專賣店" class="banner-image" />
+      <!-- Desktop banner -->
+      <img src="/banner/banner.png" alt="動漫公仔專賣店" class="banner-image banner-desktop" />
+      <!-- Mobile banner -->
+      <img src="/banner/banner-app.jpg" alt="動漫公仔專賣店" class="banner-image banner-mobile" />
     </section>
     
     <!-- Main Content -->
@@ -58,6 +61,16 @@
   object-fit: cover;
 }
 
+/* Desktop banner - show by default, hide on mobile */
+.banner-desktop {
+  display: block;
+}
+
+/* Mobile banner - hide by default, show on mobile */
+.banner-mobile {
+  display: none;
+}
+
 .main-content {
   flex: 1;
   width: 100%;
@@ -72,6 +85,15 @@
   .banner-image {
     min-height: 200px;
     object-fit: cover;
+  }
+
+  /* Show mobile banner on mobile devices */
+  .banner-desktop {
+    display: none;
+  }
+
+  .banner-mobile {
+    display: block;
   }
 }
 

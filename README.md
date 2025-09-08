@@ -12,7 +12,7 @@ pnpm install
 pnpm dev
 ```
 
-在瀏覽器中開啟 [http://localhost:3000](http://localhost:3000)。
+
 
 ## 建置生產版本
 

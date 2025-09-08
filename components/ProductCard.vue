@@ -1,3 +1,13 @@
+<!--
+  ProductCard 組件
+  用途：用於顯示商品資訊的卡片組件
+  功能：
+  - 顯示商品圖片、標題、價格
+  - 支援售完狀態顯示
+  - 點擊可跳轉到商品詳情頁
+  - 具有多層陰影的視覺效果
+  使用場景：首頁的精選商品、商品列表等
+-->
 <template>
   <NuxtLink :to="`/product/${productId}`" class="product-card-link">
     <div class="product-card" :class="{ 'sold-out': isSoldOut }">
@@ -54,7 +64,7 @@ const props = defineProps({
 
 .product-card {
   background: rgba(255, 255, 255, 0.95);
-  border-radius: 15px;
+  border-radius: 0px;
   overflow: visible; /* 改為 visible 讓陰影不被裁切 */
   transition: transform 0.3s;
   height: 400px;
@@ -81,7 +91,7 @@ const props = defineProps({
 .product-image {
   width: 100%;
   height: 100%;
-  border-radius: 15px 15px 0 0;
+  border-radius: 0px;
   background: linear-gradient(45deg, #ff6b9d, #ff8fab);
   position: relative;
   margin: 0;
@@ -97,7 +107,7 @@ const props = defineProps({
   height: 100%;
   object-fit: cover;
   object-position: center;
-  border-radius: 15px 15px 0 0;
+  border-radius: 0px;
 }
 
 .product-info {

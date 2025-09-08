@@ -1,3 +1,13 @@
+<!--
+  FigurineCard 組件
+  用途：用於顯示公仔/手辦資訊的卡片組件
+  功能：
+  - 顯示公仔圖片、標題、價格
+  - 支援售完狀態顯示
+  - 點擊可跳轉到商品詳情頁
+  - 具有簡潔的卡片設計風格
+  使用場景：首頁的精選公仔、公仔列表等
+-->
 <template>
   <NuxtLink :to="`/product/${productId}`" class="figurine-card-link">
     <div class="figurine-card" :class="{ 'sold-out': isSoldOut }">
@@ -54,7 +64,7 @@ const props = defineProps({
 
 .figurine-card {
   background: rgba(255, 255, 255, 0.95);
-  border-radius: 15px;
+  border-radius: 0px;
   overflow: hidden;
   transition: transform 0.3s;
   height: 400px;
@@ -72,7 +82,7 @@ const props = defineProps({
 .figurine-image {
   width: 100%;
   height: 100%;
-  border-radius: 15px 15px 0 0;
+  border-radius: 0px;
   background: #f8f9fa;
   position: relative;
   margin: 0;
@@ -88,7 +98,7 @@ const props = defineProps({
   height: 100%;
   object-fit: cover;
   object-position: center;
-  border-radius: 15px 15px 0 0;
+  border-radius: 0px;
 }
 
 .figurine-info {

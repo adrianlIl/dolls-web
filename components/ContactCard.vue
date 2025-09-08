@@ -1,3 +1,14 @@
+<!--
+  ContactCard 組件
+  用途：用於顯示聯絡客服資訊的橫幅卡片組件
+  功能：
+  - 顯示「新品上市」標題和副標題
+  - 包含 LINE QR Code 圖片
+  - 點擊可開啟 QR Code 彈窗
+  - 具有漸層背景和現代化設計
+  - 響應式設計，適應不同螢幕尺寸
+  使用場景：首頁的聯絡客服區塊
+-->
 <template>
   <section class="contact-banner-section">
     <div class="contact-banner" @click="showQRCode = true">

@@ -498,10 +498,11 @@ const quickView = (product) => {
   flex-direction: column;
 }
 
-.sale-product-card:hover {
+/* 移除 hover 效果 - sale 卡片不需要 hover 效果 */
+/* .sale-product-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-}
+} */
 
 .product-image {
   position: relative;
@@ -547,9 +548,10 @@ const quickView = (product) => {
   backdrop-filter: blur(5px);
 }
 
-.sale-product-card:hover .quick-view {
+/* 移除 quick-view 的 hover 效果 */
+/* .sale-product-card:hover .quick-view {
   opacity: 1;
-}
+} */
 
 .product-info {
   position: absolute;

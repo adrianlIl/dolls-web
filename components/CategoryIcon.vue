@@ -1,3 +1,13 @@
+<!--
+  CategoryIcon 組件
+  用途：用於顯示不同商品分類的圖標組件
+  功能：
+  - 支援多種商品分類圖標（全部、GK公仔、手辦、雕像等）
+  - 可自定義圖標樣式和顏色
+  - 響應式設計，適應不同尺寸
+  - 統一的視覺風格
+  使用場景：商品分類篩選、分類標籤顯示等
+-->
 <template>
   <div class="category-icon" :class="iconClass">
     <svg v-if="type === 'all'" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">

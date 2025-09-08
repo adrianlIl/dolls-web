@@ -1,3 +1,13 @@
+<!--
+  LimitedCard 組件
+  用途：用於顯示限量版商品資訊的卡片組件
+  功能：
+  - 顯示限量版商品圖片、標題、價格
+  - 支援售完狀態顯示
+  - 點擊可跳轉到商品詳情頁
+  - 具有特殊的限量版視覺設計
+  使用場景：首頁的限量版商品、限量商品列表等
+-->
 <template>
   <NuxtLink :to="`/product/${productId}`" class="limited-card-link">
     <div class="limited-card" :class="{ 'sold-out': isSoldOut }">
@@ -54,7 +64,7 @@ const props = defineProps({
 
 .limited-card {
   background: white;
-  border-radius: 15px;
+  border-radius: 0px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s;
@@ -71,7 +81,7 @@ const props = defineProps({
 .limited-image {
   width: 100%;
   height: 100%;
-  border-radius: 15px 15px 0 0;
+  border-radius: 0px;
   background: #f8f9fa;
   position: relative;
   margin: 0;
@@ -87,7 +97,7 @@ const props = defineProps({
   height: 100%;
   object-fit: cover;
   object-position: center;
-  border-radius: 15px 15px 0 0;
+  border-radius: 0px;
 }
 
 .limited-info {

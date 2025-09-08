@@ -1,3 +1,14 @@
+<!--
+  SimpleDoodleBackground 組件
+  用途：提供動態塗鴉背景效果的組件
+  功能：
+  - 顯示隨機的 SVG 塗鴉圖案
+  - 支援動畫效果（可選）
+  - 多種主題色彩（pink、blue、green 等）
+  - 可調整透明度和動畫速度
+  - 響應式設計，適應不同螢幕尺寸
+  使用場景：網站的背景裝飾效果
+-->
 <template>
   <div class="simple-doodle-bg" :class="{ 'animated': isAnimated }">
     <!-- SVG塗鴉層 -->
