@@ -54,7 +54,7 @@
           <p>防詐騙宣導 | 提醒您,我們不會以電話或簡訊方式通知變更付款方式、會員付費升級、錯誤設定分期、要求客戶進行付款。</p>
         </div>
         <div class="company-info">
-          <p>全擊股份有限公司 | 統一編號:92702176</p>
+          <p>全擊股份有限公司 | 統一編號:90031010</p>
         </div>
         <div class="policy-links">
           <NuxtLink to="/service">退換貨政策</NuxtLink>
