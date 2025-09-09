@@ -149,12 +149,6 @@ const contactFeatures = [
     description: '臺中市南區和平里忠明南路758號\n17樓'
   },
   {
-    id: 'phone',
-    icon: '📞',
-    title: '聯絡電話',
-    description: '02-2700-8888\n週一至週五 9:00-18:00'
-  },
-  {
     id: 'line',
     icon: '📱',
     title: 'LINE 客服',

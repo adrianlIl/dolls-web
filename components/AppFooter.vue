@@ -20,17 +20,17 @@
           </div>
           <div class="footer-links">
             <NuxtLink to="/about" class="footer-link">品牌介紹</NuxtLink>
-            <NuxtLink to="/service" class="footer-link">LINE線上客服</NuxtLink>
+             <NuxtLink to="/service#contact-methods" class="footer-link">LINE線上客服</NuxtLink>
           </div>
         </div>
         
         <div class="footer-center">
           <h4>顧客服務</h4>
           <div class="footer-links">
-            <NuxtLink to="/service" class="footer-link">購物須知及流程</NuxtLink>
+            <NuxtLink to="/shopping-guide" class="footer-link">購物須知及流程</NuxtLink>
             <NuxtLink to="/service" class="footer-link">售後服務條款</NuxtLink>
-            <NuxtLink to="/service" class="footer-link">會員福利權益</NuxtLink>
-            <NuxtLink to="/service" class="footer-link">常見問題</NuxtLink>
+            <NuxtLink to="/return-policy" class="footer-link">退換貨政策</NuxtLink>
+             <NuxtLink to="/service#faq-section" class="footer-link">常見問題</NuxtLink>
           </div>
         </div>
         
@@ -38,7 +38,6 @@
           <h4>顧客服務</h4>
           <div class="contact-info">
             <p>週一至週五 10:00 - 20:00</p>
-            <p>客服專線: 02-2974-8408</p>
             <p>臺中市南區和平里忠明南路758號17樓</p>
             <p class="note">『非展售中心』</p>
           </div>
@@ -57,9 +56,9 @@
           <p>全擊股份有限公司 | 統一編號:90031010</p>
         </div>
         <div class="policy-links">
-          <NuxtLink to="/service">退換貨政策</NuxtLink>
+          <NuxtLink to="/return-policy">退換貨政策</NuxtLink>
           <span class="separator">|</span>
-          <NuxtLink to="/service">隱私權政策</NuxtLink>
+          <NuxtLink to="/privacy">隱私權政策</NuxtLink>
           <span class="separator">|</span>
           <span>&copy; 2024 全擊GK潮流公仔 All rights reserved</span>
         </div>

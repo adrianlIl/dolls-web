@@ -53,7 +53,7 @@
               </div>
               <div class="product-actions">
                 <button class="contact-service" disabled>
-                  <span class="service-icon">📞</span>
+                  <span class="service-icon">💬</span>
                   立即聯絡客服
                 </button>
               </div>

@@ -21,7 +21,7 @@
     </section>
 
     <!-- Contact Methods -->
-    <section class="contact-methods">
+    <section id="contact-methods" class="contact-methods">
       <div class="container">
         <SectionDivider title="聯絡方式" />
         <div class="contact-grid">
@@ -34,21 +34,12 @@
             </div>
             <button class="contact-btn" @click="openLineChat">立即聯絡</button>
           </div>
-          <div class="contact-card">
-            <div class="contact-icon">📞</div>
-            <h3>電話客服</h3>
-            <p>週一至週五 9:00-18:00</p>
-            <div class="phone-display">
-              <div class="phone-number">02-1234-5678</div>
-            </div>
-            <button class="contact-btn" @click="makeCall">撥打電話</button>
-          </div>
         </div>
       </div>
     </section>
 
     <!-- FAQ Section -->
-    <section class="faq-section">
+    <section id="faq-section" class="faq-section">
       <div class="container">
         <SectionDivider title="常見問題" />
         <div class="faq-list">
@@ -182,9 +173,6 @@ const openLineChat = () => {
   window.open('https://line.me/ti/p/@dolls-web', '_blank')
 }
 
-const makeCall = () => {
-  window.location.href = 'tel:02-1234-5678'
-}
 
 </script>
 

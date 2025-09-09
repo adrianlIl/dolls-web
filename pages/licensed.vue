@@ -35,7 +35,7 @@
               </div>
               <div class="product-actions">
                 <button class="contact-service" disabled>
-                  <span class="icon">📞</span>
+                  <span class="icon">💬</span>
                   立即聯絡客服
                 </button>
               </div>
