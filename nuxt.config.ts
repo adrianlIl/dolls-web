@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   srcDir: '.',
   pages: true,
   app: {
-    baseURL: '/dolls-web/'  // 你的 repo 名稱
+    baseURL: process.env.NODE_ENV === 'production' ? '/dolls-web/' : '/'
   },
   css: ['~/assets/css/global.css'],
   nitro: {
