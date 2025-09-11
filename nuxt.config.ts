@@ -1,7 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
-  target: 'static',
+  nitro: {
+    prerender: {
+      routes: ['/']
+    }
+  },
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   srcDir: '.',
@@ -10,11 +14,6 @@ export default defineNuxtConfig({
     baseURL: '/dolls-web/'  // 你的 repo 名稱
   },
   css: ['~/assets/css/global.css'],
-  nitro: {
-    prerender: {
-      routes: ['/']
-    }
-  },
   vite: {
     css: {
       preprocessorOptions: {
