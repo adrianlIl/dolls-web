@@ -1,9 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: false,
+  target: 'static',
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   srcDir: '.',
   pages: true,
+  app: {
+    baseURL: '/dolls-web/'  // 你的 repo 名稱
+  },
   css: ['~/assets/css/global.css'],
   vite: {
     server: {
