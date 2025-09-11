@@ -10,7 +10,7 @@ function generateProducts() {
   const products = [];
   
   for (let i = 1; i <= 20; i++) {
-    const commodityPath = path.join(__dirname, '../public/ commodity', i.toString());
+    const commodityPath = path.join(__dirname, '../public/commodity', i.toString());
     const textPath = path.join(commodityPath, 'text');
     const imagesPath = path.join(commodityPath, 'images');
     
@@ -29,9 +29,9 @@ function generateProducts() {
       
       // 生成縮圖陣列
       const thumbnails = [];
-      if (images.home) thumbnails.push(`/ commodity/${i}/images/Home.webp`);
-      if (images.one) thumbnails.push(`/ commodity/${i}/images/one.webp`);
-      if (images.two) thumbnails.push(`/ commodity/${i}/images/two.webp`);
+      if (images.home) thumbnails.push(`/commodity/${i}/images/Home.webp`);
+      if (images.one) thumbnails.push(`/commodity/${i}/images/one.webp`);
+      if (images.two) thumbnails.push(`/commodity/${i}/images/two.webp`);
       
       // 從 content.txt 中提取商品名稱作為描述
       let description = '';
@@ -58,7 +58,7 @@ function generateProducts() {
         title: title,
         description: description,
         price: price,
-        mainImage: `/ commodity/${i}/images/Home.webp`,
+        mainImage: `/commodity/${i}/images/Home.webp`,
         thumbnails: thumbnails,
         imageClass: `product-${i}`,
         isLimited: i === 18 || i === 20
