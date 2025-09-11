@@ -16,6 +16,13 @@ export default defineNuxtConfig({
     }
   },
   vite: {
+    css: {
+      preprocessorOptions: {
+        css: {
+          charset: false
+        }
+      }
+    },
     server: {
       host: '0.0.0.0',
       allowedHosts: [
