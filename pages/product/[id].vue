@@ -121,7 +121,7 @@ const isLoading = ref(true)
 // 載入 content.txt 內容
 const loadContent = async () => {
   try {
-    const response = await fetch(`/ commodity/${productId}/text/content.txt`)
+    const response = await fetch(`/commodity/${productId}/text/content.txt`)
     if (response.ok) {
       contentData.value = await response.text()
     } else {
