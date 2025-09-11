@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   srcDir: '.',
   pages: true,
   app: {
-    baseURL: '/dolls-web/'  // 你的 repo 名稱
+    baseURL: '/'
   },
   css: ['~/assets/css/global.css'],
   vite: {
