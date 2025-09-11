@@ -10,6 +10,11 @@ export default defineNuxtConfig({
     baseURL: '/dolls-web/'  // 你的 repo 名稱
   },
   css: ['~/assets/css/global.css'],
+  nitro: {
+    prerender: {
+      routes: ['/']
+    }
+  },
   vite: {
     server: {
       host: '0.0.0.0',
