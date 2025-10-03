@@ -34,7 +34,7 @@
                 <span class="original-price" v-if="product.originalPrice">{{ product.originalPrice }}</span>
               </div>
               <div class="product-actions">
-                <button class="contact-service" disabled>
+                <button class="contact-service" @click="showQRCode = true">
                   <span class="icon">💬</span>
                   立即聯絡客服
                 </button>
@@ -55,6 +55,25 @@
         />
       </div>
     </section>
+
+    <!-- QR Code Modal -->
+    <div v-if="showQRCode" class="qr-modal" @click="showQRCode = false">
+      <div class="qr-modal-content" @click.stop>
+        <button class="close-btn" @click="showQRCode = false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+        <div class="qr-content">
+          <h3>掃描 QR Code 加入 LINE 客服</h3>
+          <div class="qr-image-container">
+            <img src="/qrcode/lineqr.jpg" alt="LINE 客服 QR Code" class="qr-image" />
+          </div>
+          <p class="qr-instruction">使用 LINE 掃描上方 QR Code 即可開始對話</p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -63,6 +82,8 @@
 import { ref, computed } from 'vue'
 import productsData from '~/data/products.json'
 
+// QR Code 彈窗控制
+const showQRCode = ref(false)
 
 // 品質保證特徵
 const qualityFeatures = [
@@ -544,5 +565,73 @@ const getProductTags = (product) => {
   .product-specs {
     flex-direction: column;
   }
+}
+
+/* QR Code Modal */
+.qr-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.qr-modal-content {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  max-width: 400px;
+  width: 90%;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.3s;
+}
+
+.close-btn:hover {
+  color: #333;
+}
+
+.qr-content {
+  text-align: center;
+}
+
+.qr-content h3 {
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.qr-image-container {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.qr-image {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.qr-instruction {
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 1rem;
 }
 </style>
