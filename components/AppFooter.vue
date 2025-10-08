@@ -54,6 +54,10 @@
         </div>
         <div class="company-info">
           <p>全擊股份有限公司 | 統一編號:90031010</p>
+          <div class="bank-info">
+            <p>合作金庫 豐原分行（006）0200717122479</p>
+            <p>中國信託 中港分行（822）288540725492</p>
+          </div>
         </div>
         <div class="policy-links">
           <NuxtLink to="/return-policy">退換貨政策</NuxtLink>
@@ -180,6 +184,18 @@
   color: #ccc;
   font-size: 0.9rem;
   text-align: center;
+}
+
+.bank-info {
+  margin-top: 0.5rem;
+}
+
+.bank-info p {
+  color: #aaa;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 0.3rem;
+  line-height: 1.3;
 }
 
 .policy-links {
