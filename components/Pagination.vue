@@ -13,6 +13,16 @@
   <div class="pagination-section" v-if="totalPages > 1">
     <div class="container">
       <div class="pagination">
+        <!-- 上一頁按鈕 -->
+        <button 
+          class="page-btn prev"
+          @click="goToPage(currentPage - 1)"
+          :disabled="currentPage <= 1"
+        >
+          ←
+        </button>
+        
+        <!-- 第一頁 -->
         <button 
           class="page-btn" 
           :class="{ active: currentPage === 1 }"
@@ -20,6 +30,11 @@
         >
           1
         </button>
+        
+        <!-- 省略號（當需要時） -->
+        <span v-if="showStartEllipsis" class="ellipsis">...</span>
+        
+        <!-- 中間頁面 -->
         <button 
           v-for="page in visiblePages" 
           :key="page"
@@ -29,6 +44,21 @@
         >
           {{ page }}
         </button>
+        
+        <!-- 省略號（當需要時） -->
+        <span v-if="showEndEllipsis" class="ellipsis">...</span>
+        
+        <!-- 最後一頁（當總頁數大於1時） -->
+        <button 
+          v-if="totalPages > 1"
+          class="page-btn" 
+          :class="{ active: currentPage === totalPages }"
+          @click="goToPage(totalPages)"
+        >
+          {{ totalPages }}
+        </button>
+        
+        <!-- 下一頁按鈕 -->
         <button 
           class="page-btn next"
           @click="goToPage(currentPage + 1)"
@@ -62,11 +92,13 @@ const visiblePages = computed(() => {
   const total = props.totalPages
   const current = props.currentPage
   
-  if (total <= 5) {
-    for (let i = 2; i <= total; i++) {
+  if (total <= 7) {
+    // 如果總頁數不超過7頁，顯示所有頁面（除了第1頁和最後一頁）
+    for (let i = 2; i < total; i++) {
       pages.push(i)
     }
   } else {
+    // 如果總頁數超過7頁，顯示當前頁面附近的頁面
     const start = Math.max(2, current - 1)
     const end = Math.min(total - 1, current + 1)
     
@@ -76,6 +108,18 @@ const visiblePages = computed(() => {
   }
   
   return pages
+})
+
+const showStartEllipsis = computed(() => {
+  const total = props.totalPages
+  const current = props.currentPage
+  return total > 7 && current > 4
+})
+
+const showEndEllipsis = computed(() => {
+  const total = props.totalPages
+  const current = props.currentPage
+  return total > 7 && current < total - 3
 })
 
 const goToPage = (page) => {
@@ -131,6 +175,14 @@ const goToPage = (page) => {
 .page-btn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+.ellipsis {
+  padding: 0.5rem 0.5rem;
+  color: #666;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
 }
 
 /* 響應式設計 */

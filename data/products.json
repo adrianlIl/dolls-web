@@ -556,5 +556,727 @@
     ],
     "imageClass": "product-40",
     "isLimited": false
+  },
+  {
+    "id": 41,
+    "title": "【GK預購】GK-娜美",
+    "description": "⫸ 製作團隊：夢幻工坊\n⫸ 商品名稱：雷神索爾\n⫸ 建議售價：全款8500、訂金3400（未含國際運費）\n⫸ 規格尺寸：1/6，高32cm*寬25cm*深20cm\n⫸ 商品配置：雷神之錘、閃電特效件、替換手型\n⫸ 材質說明：進口樹脂+進口PU、LED燈組\n⫸ 備註說明：雷神之錘可發光\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/41/images/Home.png",
+    "thumbnails": [
+      "/commodity/41/images/Home.png"
+    ],
+    "imageClass": "product-41",
+    "isLimited": false
+  },
+  {
+    "id": 42,
+    "title": "【GK預購】超級乖 1/1 皮卡丘女帝",
+    "description": "⫸ 製作團隊：星月工作室\n⫸ 商品名稱：初音未來 雪未來\n⫸ 建議售價：全款6200、訂金2480（未含國際運費）\n⫸ 規格尺寸：1/7，高28cm*寬18cm*深15cm\n⫸ 商品配置：雪景底座、雪花特效件\n⫸ 材質說明：PVC、ABS\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：2026年Q1（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 30,000",
+    "mainImage": "/commodity/42/images/Home.png",
+    "thumbnails": [
+      "/commodity/42/images/Home.png"
+    ],
+    "imageClass": "product-42",
+    "isLimited": false
+  },
+  {
+    "id": 43,
+    "title": "【GK預購】SUPER HERO 熾天使女帝S 蛇女｜海賊王 熾天使七武海系列第二彈",
+    "description": "⫸ 製作團隊：龍王社\n⫸ 商品名稱：悟空 超級賽亞人藍\n⫸ 建議售價：全款9800、訂金3920（未含國際運費）\n⫸ 規格尺寸：1/6，高35cm*寬28cm*深22cm\n⫸ 商品配置：氣功波特效件、替換頭雕、地台\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 備註說明：氣功波可發光\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 6,600",
+    "mainImage": "/commodity/43/images/Home.png",
+    "thumbnails": [
+      "/commodity/43/images/Home.png"
+    ],
+    "imageClass": "product-43",
+    "isLimited": false
+  },
+  {
+    "id": 44,
+    "title": "【GK預購】騰空 卡塔庫慄｜海賊王 自傷卡二",
+    "description": "⫸ 製作團隊：幻影工作室\n⫸ 商品名稱：艾莉亞·史塔克\n⫸ 建議售價：全款7200、訂金2880（未含國際運費）\n⫸ 規格尺寸：1/6，高30cm*寬20cm*深18cm\n⫸ 商品配置：縫衣針劍、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 6,000",
+    "mainImage": "/commodity/44/images/Home.png",
+    "thumbnails": [
+      "/commodity/44/images/Home.png"
+    ],
+    "imageClass": "product-44",
+    "isLimited": false
+  },
+  {
+    "id": 45,
+    "title": "【GK預購】Black 木棒巨人中將｜海賊王 頂上戰爭海軍巨人中將補全第四彈",
+    "description": "⫸ 製作團隊：星辰工坊\n⫸ 商品名稱：明日香\n⫸ 建議售價：全款6800、訂金2720（未含國際運費）\n⫸ 規格尺寸：1/6，高32cm*寬18cm*深16cm\n⫸ 商品配置：替換頭雕、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 7.500",
+    "mainImage": "/commodity/45/images/Home.png",
+    "thumbnails": [
+      "/commodity/45/images/Home.png"
+    ],
+    "imageClass": "product-45",
+    "isLimited": false
+  },
+  {
+    "id": 46,
+    "title": "As 賈巴｜海賊王 第一彈-第三彈",
+    "description": "⫸ 製作團隊：神話工坊\n⫸ 商品名稱：雅典娜\n⫸ 建議售價：全款9200、訂金3680（未含國際運費）\n⫸ 規格尺寸：1/6，高38cm*寬25cm*深20cm\n⫸ 商品配置：勝利女神權杖、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/46/images/Home.png",
+    "thumbnails": [
+      "/commodity/46/images/Home.png"
+    ],
+    "imageClass": "product-46",
+    "isLimited": false
+  },
+  {
+    "id": 47,
+    "title": "As 雷利｜海賊王 第一彈-第三彈",
+    "description": "⫸ 製作團隊：風暴工作室\n⫸ 商品名稱：雷電將軍\n⫸ 建議售價：全款8800、訂金3520（未含國際運費）\n⫸ 規格尺寸：1/6，高34cm*寬22cm*深18cm\n⫸ 商品配置：雷電特效件、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 備註說明：雷電特效可發光\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/47/images/Home.png",
+    "thumbnails": [
+      "/commodity/47/images/Home.png"
+    ],
+    "imageClass": "product-47",
+    "isLimited": false
+  },
+  {
+    "id": 48,
+    "title": "As 羅傑｜海賊王 第一彈-第三彈",
+    "description": "⫸ 製作團隊：龍珠工坊\n⫸ 商品名稱：貝吉塔 超級賽亞人\n⫸ 建議售價：全款9500、訂金3800（未含國際運費）\n⫸ 規格尺寸：1/6，高33cm*寬26cm*深20cm\n⫸ 商品配置：氣功波特效件、替換頭雕、地台\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$  5,100",
+    "mainImage": "/commodity/48/images/Home.png",
+    "thumbnails": [
+      "/commodity/48/images/Home.png"
+    ],
+    "imageClass": "product-48",
+    "isLimited": false
+  },
+  {
+    "id": 49,
+    "title": "Black 瓦爾波｜海賊王 私定系列補全boss",
+    "description": "⫸ 製作團隊：幻夢工坊\n⫸ 商品名稱：夜神月\n⫸ 建議售價：全款6500、訂金2600（未含國際運費）\n⫸ 規格尺寸：1/6，高31cm*寬18cm*深15cm\n⫸ 商品配置：死亡筆記本、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$  5,600",
+    "mainImage": "/commodity/49/images/Home.png",
+    "thumbnails": [
+      "/commodity/49/images/Home.png"
+    ],
+    "imageClass": "product-49",
+    "isLimited": false
+  },
+  {
+    "id": 50,
+    "title": "Black 洛克斯｜海賊王 私定系列",
+    "description": "⫸ 製作團隊：星辰社\n⫸ 商品名稱：涼宮春日\n⫸ 建議售價：全款5800、訂金2320（未含國際運費）\n⫸ 規格尺寸：1/6，高29cm*寬16cm*深14cm\n⫸ 商品配置：替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$  5.600",
+    "mainImage": "/commodity/50/images/Home.png",
+    "thumbnails": [
+      "/commodity/50/images/Home.png"
+    ],
+    "imageClass": "product-50",
+    "isLimited": false
+  },
+  {
+    "id": 51,
+    "title": "替身 蛋蛋男爵｜海賊王 大媽團第18彈",
+    "description": "⫸ 製作團隊：神話工坊\n⫸ 商品名稱：海皇波塞冬\n⫸ 建議售價：全款11200、訂金4480（未含國際運費）\n⫸ 規格尺寸：1/6，高42cm*寬28cm*深22cm\n⫸ 商品配置：三叉戟、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/51/images/Home.png",
+    "thumbnails": [
+      "/commodity/51/images/Home.png"
+    ],
+    "imageClass": "product-51",
+    "isLimited": false
+  },
+  {
+    "id": 52,
+    "title": "FIT 尼卡形態 航海士白髮娜美｜海賊王 全員共鳴系列",
+    "description": "⫸ 製作團隊：風暴工作室\n⫸ 商品名稱：胡桃\n⫸ 建議售價：全款7800、訂金3120（未含國際運費）\n⫸ 規格尺寸：1/6，高32cm*寬20cm*深16cm\n⫸ 商品配置：護摩之杖、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/52/images/Home.png",
+    "thumbnails": [
+      "/commodity/52/images/Home.png"
+    ],
+    "imageClass": "product-52",
+    "isLimited": false
+  },
+  {
+    "id": 53,
+    "title": "C2 和之國皮衣凱多｜海賊王 A款單人物",
+    "description": "⫸ 製作團隊：龍王社\n⫸ 商品名稱：弗利沙\n⫸ 建議售價：全款8200、訂金3280（未含國際運費）\n⫸ 規格尺寸：1/6，高30cm*寬24cm*深18cm\n⫸ 商品配置：替換頭雕、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 6,800",
+    "mainImage": "/commodity/53/images/Home.png",
+    "thumbnails": [
+      "/commodity/53/images/Home.png"
+    ],
+    "imageClass": "product-53",
+    "isLimited": false
+  },
+  {
+    "id": 54,
+    "title": "C2 和之國皮衣凱多｜海賊王 B款特效高配",
+    "description": "⫸ 製作團隊：幻影工作室\n⫸ 商品名稱：瓊恩·雪諾\n⫸ 建議售價：全款7500、訂金3000（未含國際運費）\n⫸ 規格尺寸：1/6，高32cm*寬22cm*深18cm\n⫸ 商品配置：長爪劍、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 9,700",
+    "mainImage": "/commodity/54/images/Home.png",
+    "thumbnails": [
+      "/commodity/54/images/Home.png"
+    ],
+    "imageClass": "product-54",
+    "isLimited": false
+  },
+  {
+    "id": 55,
+    "title": "鐵幕×潮鳴 雷神｜海賊王 私定高端系列",
+    "description": "⫸ 製作團隊：星辰工坊\n⫸ 商品名稱：綾波零\n⫸ 建議售價：全款6800、訂金2720（未含國際運費）\n⫸ 規格尺寸：1/6，高31cm*寬17cm*深15cm\n⫸ 商品配置：替換頭雕、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 35,000",
+    "mainImage": "/commodity/55/images/Home.png",
+    "thumbnails": [
+      "/commodity/55/images/Home.png"
+    ],
+    "imageClass": "product-55",
+    "isLimited": false
+  },
+  {
+    "id": 56,
+    "title": "集美殿堂 最終彈 大將黃猿｜海賊王 正版授權",
+    "description": "⫸ 製作團隊：神話工坊\n⫸ 商品名稱：冥王哈迪斯\n⫸ 建議售價：全款12800、訂金5120（未含國際運費）\n⫸ 規格尺寸：1/6，高45cm*寬30cm*深25cm\n⫸ 商品配置：冥王劍、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 21,000",
+    "mainImage": "/commodity/56/images/Home.png",
+    "thumbnails": [
+      "/commodity/56/images/Home.png"
+    ],
+    "imageClass": "product-56",
+    "isLimited": false
+  },
+  {
+    "id": 57,
+    "title": " 光年 女帝·波雅·漢庫克｜海賊王",
+    "description": "⫸ 製作團隊：風暴工作室\n⫸ 商品名稱：甘雨\n⫸ 建議售價：全款8500、訂金3400（未含國際運費）\n⫸ 規格尺寸：1/6，高33cm*寬21cm*深17cm\n⫸ 商品配置：阿莫斯之弓、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 29,900",
+    "mainImage": "/commodity/57/images/Home.png",
+    "thumbnails": [
+      "/commodity/57/images/Home.png"
+    ],
+    "imageClass": "product-57",
+    "isLimited": false
+  },
+  {
+    "id": 58,
+    "title": "夢幻 五檔尼卡魯夫｜海賊王",
+    "description": "⫸ 製作團隊：龍珠工坊\n⫸ 商品名稱：魔人普烏\n⫸ 建議售價：全款8800、訂金3520（未含國際運費）\n⫸ 規格尺寸：1/6，高35cm*寬28cm*深22cm\n⫸ 商品配置：替換頭雕、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,200",
+    "mainImage": "/commodity/58/images/Home.png",
+    "thumbnails": [
+      "/commodity/58/images/Home.png"
+    ],
+    "imageClass": "product-58",
+    "isLimited": false
+  },
+  {
+    "id": 59,
+    "title": "Rain 獅子歌歌 羅羅諾亞·索隆｜海賊王",
+    "subtitle": "獅子頭和斬擊特效可以亮燈（呼吸+常亮）",
+    "description": "⫸ 製作團隊：幻夢工坊\n⫸ 商品名稱：L\n⫸ 建議售價：全款6200、訂金2480（未含國際運費）\n⫸ 規格尺寸：1/6，高30cm*寬18cm*深16cm\n⫸ 商品配置：替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 7,000",
+    "mainImage": "/commodity/59/images/Home.png",
+    "thumbnails": [
+      "/commodity/59/images/Home.png"
+    ],
+    "imageClass": "product-59",
+    "isLimited": false
+  },
+  {
+    "id": 60,
+    "title": "Badge 宿命的對決 艾斯＆黑鬍子｜海賊王",
+    "description": "⫸ 製作團隊：星辰社\n⫸ 商品名稱：長門有希\n⫸ 建議售價：全款5600、訂金2240（未含國際運費）\n⫸ 規格尺寸：1/6，高28cm*寬15cm*深13cm\n⫸ 商品配置：替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 6,100",
+    "mainImage": "/commodity/60/images/Home.png",
+    "thumbnails": [
+      "/commodity/60/images/Home.png"
+
+    ],
+    "imageClass": "product-60",
+    "isLimited": false
+  },
+  {
+    "id": 61,
+    "title": "妮可·羅賓｜海賊王",
+    "description": "⫸ 製作團隊：龍魂工坊\n⫸ 商品名稱：孫悟空 超級賽亞人4\n⫸ 建議售價：全款12500、訂金5000（未含國際運費）\n⫸ 規格尺寸：1/6，高38cm*寬30cm*深25cm\n⫸ 商品配置：替換頭雕、替換手型、地台、特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 9,000",
+    "mainImage": "/commodity/61/images/Home.png",
+    "thumbnails": [
+      "/commodity/61/images/Home.png"
+    ],
+    "imageClass": "product-61",
+    "isLimited": false
+  },
+  {
+    "id": 62,
+    "title": "龍虎 莫利亞｜海賊王",
+    "description": "⫸ 製作團隊：幻影社\n⫸ 商品名稱：鋼鐵人 Mark 85\n⫸ 建議售價：全款9800、訂金3920（未含國際運費）\n⫸ 規格尺寸：1/6，高33cm*寬25cm*深20cm\n⫸ 商品配置：替換手型、地台、LED燈組\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 備註說明：胸部和手掌可發光\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 8,500",
+    "mainImage": "/commodity/62/images/Home.png",
+    "thumbnails": [
+      "/commodity/62/images/Home.png"
+    ],
+    "imageClass": "product-62",
+    "isLimited": false
+  },
+  {
+    "id": 63,
+    "title": "埃及女帝 無理之人 給我退下｜海賊王",
+    "description": "⫸ 製作團隊：星月工坊\n⫸ 商品名稱：初音未來 未來有你\n⫸ 建議售價：全款7200、訂金2880（未含國際運費）\n⫸ 規格尺寸：1/7，高30cm*寬20cm*深16cm\n⫸ 商品配置：替換手型、地台、特效件\n⫸ 材質說明：PVC、ABS\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：2026年Q1（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/63/images/Home.png",
+    "thumbnails": [
+      "/commodity/63/images/Home.png"
+    ],
+    "imageClass": "product-63",
+    "isLimited": false
+  },
+  {
+    "id": 64,
+    "title": "大熊社 靈魂之王 布魯克｜海賊王 草帽團共鳴系列",
+    "description": "⫸ 製作團隊：龍王社\n⫸ 商品名稱：比克大魔王\n⫸ 建議售價：全款8500、訂金3400（未含國際運費）\n⫸ 規格尺寸：1/6，高34cm*寬26cm*深20cm\n⫸ 商品配置：替換頭雕、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 6,400",
+    "mainImage": "/commodity/64/images/Home.png",
+    "thumbnails": [
+      "/commodity/64/images/Home.png"
+    ],
+    "imageClass": "product-64",
+    "isLimited": false
+  },
+  {
+    "id": 65,
+    "title": "【SY 凱多｜海賊王 皇系列共鳴第一彈",
+    "description": "⫸ 製作團隊：神話工坊\n⫸ 商品名稱：天馬座星矢\n⫸ 建議售價：全款8800、訂金3520（未含國際運費）\n⫸ 規格尺寸：1/6，高36cm*寬24cm*深18cm\n⫸ 商品配置：聖衣、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 14,200",
+    "mainImage": "/commodity/65/images/Home.png",
+    "thumbnails": [
+      "/commodity/65/images/Home.png"
+    ],
+    "imageClass": "product-65",
+    "isLimited": false
+  },
+  {
+    "id": 66,
+    "title": "Anm 雷神艾尼路｜海賊王",
+    "description": "⫸ 製作團隊：風暴工作室\n⫸ 商品名稱：刻晴\n⫸ 建議售價：全款8200、訂金3280（未含國際運費）\n⫸ 規格尺寸：1/6，高32cm*寬20cm*深16cm\n⫸ 商品配置：匣裡龍吟、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 7,000",
+    "mainImage": "/commodity/66/images/Home.png",
+    "thumbnails": [
+      "/commodity/66/images/Home.png"
+    ],
+    "imageClass": "product-66",
+    "isLimited": false
+  },
+  {
+    "id": 67,
+    "title": "Black 伊姆＆士兵｜海賊王 私定系列補全",
+    "description": "⫸ 製作團隊：幻夢工坊\n⫸ 商品名稱：宇智波佐助\n⫸ 建議售價：全款7800、訂金3120（未含國際運費）\n⫸ 規格尺寸：1/6，高33cm*寬24cm*深18cm\n⫸ 商品配置：草薙劍、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 9,500",
+    "mainImage": "/commodity/67/images/Home.png",
+    "thumbnails": [
+      "/commodity/67/images/Home.png"
+    ],
+    "imageClass": "product-67",
+    "isLimited": false
+  },
+  {
+    "id": 68,
+    "title": "MegaHouse 進化史 斯圖西｜海賊王",
+    "description": "⫸ 製作團隊：星辰工坊\n⫸ 商品名稱：碇真嗣\n⫸ 建議售價：全款6500、訂金2600（未含國際運費）\n⫸ 規格尺寸：1/6，高30cm*寬18cm*深15cm\n⫸ 商品配置：替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,200",
+    "mainImage": "/commodity/68/images/Home.png",
+    "thumbnails": [
+      "/commodity/68/images/Home.png"
+    ],
+    "imageClass": "product-68",
+    "isLimited": false
+  },
+  {
+    "id": 69,
+    "title": "模王 超海賊六神合體機神｜海賊王",
+    "description": "⫸ 製作團隊：神話工坊\n⫸ 商品名稱：天蠍座米羅\n⫸ 建議售價：全款9200、訂金3680（未含國際運費）\n⫸ 規格尺寸：1/6，高37cm*寬25cm*深20cm\n⫸ 商品配置：聖衣、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 9,000",
+    "mainImage": "/commodity/69/images/Home.png",
+    "thumbnails": [
+      "/commodity/69/images/Home.png"
+    ],
+    "imageClass": "product-69",
+    "isLimited": false
+  },
+  {
+    "id": 70,
+    "title": "Black 夏洛特·喬孔達｜海賊王 四皇大媽團系列共鳴計畫",
+    "description": "⫸ 製作團隊：風暴工作室\n⫸ 商品名稱：神里綾華\n⫸ 建議售價：全款8500、訂金3400（未含國際運費）\n⫸ 規格尺寸：1/6，高33cm*寬21cm*深17cm\n⫸ 商品配置：霧切之回光、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,100",
+    "mainImage": "/commodity/70/images/Home.png",
+    "thumbnails": [
+      "/commodity/70/images/Home.png"
+    ],
+    "imageClass": "product-70",
+    "isLimited": false
+  },
+  {
+    "id": 71,
+    "title": "大熊社 錐之青椒｜海賊王 競技場系列第七彈",
+    "description": "⫸ 製作團隊：龍珠工坊\n⫸ 商品名稱：特南克斯\n⫸ 建議售價：全款7800、訂金3120（未含國際運費）\n⫸ 規格尺寸：1/6，高32cm*寬22cm*深18cm\n⫸ 商品配置：劍、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 6,600",
+    "mainImage": "/commodity/71/images/Home.png",
+    "thumbnails": [
+      "/commodity/71/images/Home.png"
+    ],
+    "imageClass": "product-71",
+    "isLimited": false
+  },
+  {
+    "id": 72,
+    "title": "【預購款】幾何空間與漆核 阿拉巴斯坦篇章 鱷魚先生｜海賊王",
+    "description": "⫸ 製作團隊：幻影社\n⫸ 商品名稱：美國隊長\n⫸ 建議售價：全款8800、訂金3520（未含國際運費）\n⫸ 規格尺寸：1/6，高34cm*寬22cm*深18cm\n⫸ 商品配置：盾牌、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 28,000",
+    "mainImage": "/commodity/72/images/Home.png",
+    "thumbnails": [
+      "/commodity/72/images/Home.png"
+    ],
+    "imageClass": "product-72",
+    "isLimited": false
+  },
+  {
+    "id": 73,
+    "title": "As 私定款 魯夫夢魘｜海賊王",
+    "description": "⫸ 製作團隊：星月工坊\n⫸ 商品名稱：初音未來 雪未來2024\n⫸ 建議售價：全款6800、訂金2720（未含國際運費）\n⫸ 規格尺寸：1/7，高29cm*寬19cm*深16cm\n⫸ 商品配置：雪景底座、雪花特效件\n⫸ 材質說明：PVC、ABS\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：2026年Q1（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,600",
+    "mainImage": "/commodity/73/images/Home.png",
+    "thumbnails": [
+      "/commodity/73/images/Home.png"
+    ],
+    "imageClass": "product-73",
+    "isLimited": false
+  },
+  {
+    "id": 74,
+    "title": "【預購款】即刻 皇系列 凱多｜海賊王 皇系列第一彈",
+    "description": "⫸ 製作團隊：龍王社\n⫸ 商品名稱：人造人18號\n⫸ 建議售價：全款8200、訂金3280（未含國際運費）\n⫸ 規格尺寸：1/6，高31cm*寬20cm*深16cm\n⫸ 商品配置：替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 15,600",
+    "mainImage": "/commodity/74/images/Home.png",
+    "thumbnails": [
+      "/commodity/74/images/Home.png"
+    ],
+    "imageClass": "product-74",
+    "isLimited": false
+  },
+  {
+    "id": 75,
+    "title": "FIT 索隆｜海賊王 職籃全明星系列 1/4-紫色",
+    "description": "⫸ 製作團隊：神話工坊\n⫸ 商品名稱：雙子座撒加\n⫸ 建議售價：全款9800、訂金3920（未含國際運費）\n⫸ 規格尺寸：1/6，高38cm*寬26cm*深22cm\n⫸ 商品配置：聖衣、替換頭雕、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,100",
+    "mainImage": "/commodity/75/images/Home.png",
+    "thumbnails": [
+      "/commodity/75/images/Home.png"
+    ],
+    "imageClass": "product-75",
+    "isLimited": false
+  },
+  {
+    "id": 76,
+    "title": "UNO 黑鬍子 馬歇爾·D·蒂奇胸像｜海賊王",
+    "description": "⫸ 製作團隊：風暴工作室\n⫸ 商品名稱：魈\n⫸ 建議售價：全款8800、訂金3520（未含國際運費）\n⫸ 規格尺寸：1/6，高34cm*寬22cm*深18cm\n⫸ 商品配置：和璞鳶、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 8,500",
+    "mainImage": "/commodity/76/images/Home.png",
+    "thumbnails": [
+      "/commodity/76/images/Home.png"
+    ],
+    "imageClass": "product-76",
+    "isLimited": false
+  },
+  {
+    "id": 77,
+    "title": "AO 娜美｜海賊王 海賊女性系列第二彈 1/4",
+    "description": "⫸ 製作團隊：幻夢工坊\n⫸ 商品名稱：漩渦鳴人\n⫸ 建議售價：全款8500、訂金3400（未含國際運費）\n⫸ 規格尺寸：1/6，高35cm*寬25cm*深20cm\n⫸ 商品配置：替換手型、地台、特效件\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 9,000",
+    "mainImage": "/commodity/77/images/Home.png",
+    "thumbnails": [
+      "/commodity/77/images/Home.png"
+    ],
+    "imageClass": "product-77",
+    "isLimited": false
+  },
+  {
+    "id": 78,
+    "title": "Black 年輕版格林古聖｜海賊王 私定系列 補全神之騎士團第三彈",
+    "description": "⫸ 製作團隊：星辰工坊\n⫸ 商品名稱：渚薰\n⫸ 建議售價：全款7200、訂金2880（未含國際運費）\n⫸ 規格尺寸：1/6，高32cm*寬18cm*深16cm\n⫸ 商品配置：替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,600",
+    "mainImage": "/commodity/78/images/Home.png",
+    "thumbnails": [
+      "/commodity/78/images/Home.png"
+    ],
+    "imageClass": "product-78",
+    "isLimited": false
+  },
+  {
+    "id": 79,
+    "title": "LZ 三檔業火魯夫｜海賊王 魯夫全形態共鳴第四彈",
+    "description": "⫸ 製作團隊：神話工坊\n⫸ 商品名稱：處女座沙加\n⫸ 建議售價：全款10200、訂金4080（未含國際運費）\n⫸ 規格尺寸：1/6，高39cm*寬27cm*深23cm\n⫸ 商品配置：聖衣、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 7,100",
+    "mainImage": "/commodity/79/images/Home.png",
+    "thumbnails": [
+      "/commodity/79/images/Home.png"
+    ],
+    "imageClass": "product-79",
+    "isLimited": false
+  },
+  {
+    "id": 80,
+    "title": "【預購款】漫奇 波雅·漢考克｜海賊王",
+    "description": "⫸ 製作團隊：風暴工作室\n⫸ 商品名稱：鍾離\n⫸ 建議售價：全款9200、訂金3680（未含國際運費）\n⫸ 規格尺寸：1/6，高36cm*寬24cm*深20cm\n⫸ 商品配置：貫虹之槊、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 22,100",
+    "mainImage": "/commodity/80/images/Home.png",
+    "thumbnails": [
+      "/commodity/80/images/Home.png"
+    ],
+    "imageClass": "product-80",
+    "isLimited": false
+  },
+  {
+    "id": 81,
+    "title": "【預購款】集美殿堂 夏洛特·卡塔庫慄｜海賊王 正版授權 卡二",
+    "description": "⫸ 製作團隊：大熊社\n⫸ 商品名稱：香吉士\n⫸ 建議售價：全款6800、訂金2720（未含國際運費）\n⫸ 規格尺寸：1/6，高32cm*寬20cm*深16cm\n⫸ 商品配置：替換手型、地台、香煙配件\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 31,700",
+    "mainImage": "/commodity/81/images/Home.png",
+    "thumbnails": [
+      "/commodity/81/images/Home.png"
+    ],
+    "imageClass": "product-81",
+    "isLimited": false
+  },
+  {
+    "id": 82,
+    "title": "MJ漫匠 惡魔之子 溫雅羅賓｜海賊王 【發光款】",
+    "description": "⫸ 製作團隊：龍虎工作室\n⫸ 商品名稱：多佛朗明哥\n⫸ 建議售價：全款8500、訂金3400（未含國際運費）\n⫸ 規格尺寸：1/6，高35cm*寬25cm*深20cm\n⫸ 商品配置：替換手型、地台、線線果實特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 6,600",
+    "mainImage": "/commodity/82/images/Home.png",
+    "thumbnails": [
+      "/commodity/82/images/Home.png"
+    ],
+    "imageClass": "product-82",
+    "isLimited": false
+  },
+  {
+    "id": 83,
+    "title": "Reset重置 鷹眼喬拉可爾｜海賊王 七武海共鳴第四彈",
+    "description": "⫸ 製作團隊：大熊社\n⫸ 商品名稱：佛朗基\n⫸ 建議售價：全款7800、訂金3120（未含國際運費）\n⫸ 規格尺寸：1/6，高36cm*寬24cm*深20cm\n⫸ 商品配置：替換手型、地台、可動關節\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,600",
+    "mainImage": "/commodity/83/images/Home.png",
+    "thumbnails": [
+      "/commodity/83/images/Home.png"
+    ],
+    "imageClass": "product-83",
+    "isLimited": false
+  },
+  {
+    "id": 84,
+    "title": "大熊社 堂吉訶德·多佛朗明哥｜海賊王 七武海共鳴系列 - 德島配色紅褲",
+    "description": "⫸ 製作團隊：SY工作室\n⫸ 商品名稱：白鬍子\n⫸ 建議售價：全款15200、訂金6080（未含國際運費）\n⫸ 規格尺寸：1/6，高42cm*寬30cm*深25cm\n⫸ 商品配置：替換手型、地台、震震果實特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 6,100",
+    "mainImage": "/commodity/84/images/Home.png",
+    "thumbnails": [
+      "/commodity/84/images/Home.png"
+    ],
+    "imageClass": "product-84",
+    "isLimited": false
+  },
+  {
+    "id": 85,
+    "title": "莫利亞殭屍軍團第一彈 地獄三頭犬",
+    "description": "⫸ 製作團隊：Anm工作室\n⫸ 商品名稱：鷹眼米霍克\n⫸ 建議售價：全款9200、訂金3680（未含國際運費）\n⫸ 規格尺寸：1/6，高38cm*寬28cm*深22cm\n⫸ 商品配置：黑刀夜、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/85/images/Home.png",
+    "thumbnails": [
+      "/commodity/85/images/Home.png"
+    ],
+    "imageClass": "product-85",
+    "isLimited": false
+  },
+  {
+    "id": 86,
+    "title": "【銘牌訂製款】Aurora 唐吉訶德·多弗朗明哥｜海賊王",
+    "description": "⫸ 製作團隊：Black工作室\n⫸ 商品名稱：大媽夏洛特·玲玲\n⫸ 建議售價：全款12800、訂金5120（未含國際運費）\n⫸ 規格尺寸：1/6，高40cm*寬32cm*深28cm\n⫸ 商品配置：替換手型、地台、靈魂果實特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 7,000",
+    "mainImage": "/commodity/86/images/Home.png",
+    "thumbnails": [
+      "/commodity/86/images/Home.png"
+    ],
+    "imageClass": "product-86",
+    "isLimited": false
+  },
+  {
+    "id": 87,
+    "title": "MegaHouse 死之外科醫生 特拉法爾加·羅 覺醒｜海賊王",
+    "description": "⫸ 製作團隊：MegaHouse\n⫸ 商品名稱：喬巴\n⫸ 建議售價：全款5800、訂金2320（未含國際運費）\n⫸ 規格尺寸：1/6，高28cm*寬18cm*深15cm\n⫸ 商品配置：替換頭雕、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 7,000",
+    "mainImage": "/commodity/87/images/Home.png",
+    "thumbnails": [
+      "/commodity/87/images/Home.png"
+    ],
+    "imageClass": "product-87",
+    "isLimited": false
+  },
+  {
+    "id": 88,
+    "title": "替身 馬哈拜斯｜海賊王 馬赫拜茲 小唐家族共鳴第11彈",
+    "description": "⫸ 製作團隊：模王工作室\n⫸ 商品名稱：超海賊六神合體機神 魯夫\n⫸ 建議售價：全款18500、訂金7400（未含國際運費）\n⫸ 規格尺寸：1/6，高45cm*寬35cm*深30cm\n⫸ 商品配置：可變形機甲、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/88/images/Home.png",
+    "thumbnails": [
+      "/commodity/88/images/Home.png"
+    ],
+    "imageClass": "product-88",
+    "isLimited": false
+  },
+  {
+    "id": 89,
+    "title": "大熊社 巴斯克 喬特｜海賊王 黑鬍子海賊團第7彈 巴斯可·簫特",
+    "description": "⫸ 製作團隊：Black工作室\n⫸ 商品名稱：夏洛特·卡塔庫栗\n⫸ 建議售價：全款9800、訂金3920（未含國際運費）\n⫸ 規格尺寸：1/6，高38cm*寬26cm*深22cm\n⫸ 商品配置：替換手型、地台、糯糯果實特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 7,000",
+    "mainImage": "/commodity/89/images/Home.png",
+    "thumbnails": [
+      "/commodity/89/images/Home.png"
+    ],
+    "imageClass": "product-89",
+    "isLimited": false
+  },
+  {
+    "id": 90,
+    "title": "大熊社 卡特琳娜·戴彭｜海賊王 黑鬍子海賊團第8彈 卡達莉納·戴彭",
+    "description": "⫸ 製作團隊：大熊社\n⫸ 商品名稱：錐之青椒 競技場系列第八彈\n⫸ 建議售價：全款6200、訂金2480（未含國際運費）\n⫸ 規格尺寸：1/6，高32cm*寬22cm*深18cm\n⫸ 商品配置：替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 6,100",
+    "mainImage": "/commodity/90/images/Home.png",
+    "thumbnails": [
+      "/commodity/90/images/Home.png"
+    ],
+    "imageClass": "product-90",
+    "isLimited": false
+  },
+  {
+    "id": 91,
+    "title": "SHUN 克洛克達爾 老沙｜海賊王 輕雕第一彈",
+    "description": "⫸ 製作團隊：幾何空間與漆核\n⫸ 商品名稱：薇薇\n⫸ 建議售價：全款6800、訂金2720（未含國際運費）\n⫸ 規格尺寸：1/6，高31cm*寬20cm*深16cm\n⫸ 商品配置：替換手型、地台、孔雀鎖鏈\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 9,000",
+    "mainImage": "/commodity/91/images/Home.png",
+    "thumbnails": [
+      "/commodity/91/images/Home.png"
+    ],
+    "imageClass": "product-91",
+    "isLimited": false
+  },
+  {
+    "id": 92,
+    "title": "龍虎 戰桃丸｜海賊王 海軍第一彈",
+    "description": "⫸ 製作團隊：As工作室\n⫸ 商品名稱：索隆夢魘\n⫸ 建議售價：全款7200、訂金2880（未含國際運費）\n⫸ 規格尺寸：1/6，高34cm*寬24cm*深20cm\n⫸ 商品配置：三把刀、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 6,200",
+    "mainImage": "/commodity/92/images/Home.png",
+    "thumbnails": [
+      "/commodity/92/images/Home.png"
+    ],
+    "imageClass": "product-92",
+    "isLimited": false
+  },
+  {
+    "id": 93,
+    "title": "Black 老年賈巴｜海賊王 共鳴補全系列",
+    "description": "⫸ 製作團隊：即刻工作室\n⫸ 商品名稱：大媽 皇系列第二彈\n⫸ 建議售價：全款16800、訂金6720（未含國際運費）\n⫸ 規格尺寸：1/6，高42cm*寬35cm*深30cm\n⫸ 商品配置：替換手型、地台、靈魂果實特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,200",
+    "mainImage": "/commodity/93/images/Home.png",
+    "thumbnails": [
+      "/commodity/93/images/Home.png"
+    ],
+    "imageClass": "product-93",
+    "isLimited": false
+  },
+  {
+    "id": 94,
+    "title": "LZ 不死鳥馬爾科｜海賊王",
+    "description": "⫸ 製作團隊：FIT工作室\n⫸ 商品名稱：魯夫 職籃全明星系列 1/4-紅色\n⫸ 建議售價：全款6800、訂金2720（未含國際運費）\n⫸ 規格尺寸：1/4，高45cm*寬30cm*深25cm\n⫸ 商品配置：替換手型、地台、籃球配件\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,700",
+    "mainImage": "/commodity/94/images/Home.png",
+    "thumbnails": [
+      "/commodity/94/images/Home.png"
+    ],
+    "imageClass": "product-94",
+    "isLimited": false
+  },
+  {
+    "id": 95,
+    "title": "Fast 黑鬍子｜海賊王",
+    "description": "⫸ 製作團隊：UNO工作室\n⫸ 商品名稱：紅髮傑克胸像\n⫸ 建議售價：全款9200、訂金3680（未含國際運費）\n⫸ 規格尺寸：1/6，高35cm*寬28cm*深22cm\n⫸ 商品配置：替換手型、地台、格里芬\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 7,100",
+    "mainImage": "/commodity/95/images/Home.png",
+    "thumbnails": [
+      "/commodity/95/images/Home.png"
+    ],
+    "imageClass": "product-95",
+    "isLimited": false
+  },
+  {
+    "id": 96,
+    "title": "Ghost 坦克魯夫｜海賊王 魯夫形態補全計畫第二彈",
+    "description": "⫸ 製作團隊：AO工作室\n⫸ 商品名稱：羅賓 海賊女性系列第三彈 1/4\n⫸ 建議售價：全款9800、訂金3920（未含國際運費）\n⫸ 規格尺寸：1/4，高42cm*寬28cm*深22cm\n⫸ 商品配置：替換手型、地台、花花果實特效件\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,700",
+    "mainImage": "/commodity/96/images/Home.png",
+    "thumbnails": [
+      "/commodity/96/images/Home.png"
+    ],
+    "imageClass": "product-96",
+    "isLimited": false
+  },
+  {
+    "id": 97,
+    "title": "重置Reset 鬼氣九刀流索隆｜海賊王",
+    "description": "⫸ 製作團隊：Black工作室\n⫸ 商品名稱：年輕版五老星\n⫸ 建議售價：全款12800、訂金5120（未含國際運費）\n⫸ 規格尺寸：1/6，高38cm*寬30cm*深25cm\n⫸ 商品配置：替換手型、地台、替換頭雕\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$  7,100",
+    "mainImage": "/commodity/97/images/Home.png",
+    "thumbnails": [
+      "/commodity/97/images/Home.png"
+    ],
+    "imageClass": "product-97",
+    "isLimited": false
+  },
+  {
+    "id": 98,
+    "title": "SY×LX 炎災 燼｜海賊王 百獸海賊團三災共鳴第一彈",
+    "description": "⫸ 製作團隊：LZ工作室\n⫸ 商品名稱：四檔彈跳人魯夫\n⫸ 建議售價：全款8500、訂金3400（未含國際運費）\n⫸ 規格尺寸：1/6，高38cm*寬28cm*深24cm\n⫸ 商品配置：替換手型、地台、橡膠果實特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,800",
+    "mainImage": "/commodity/98/images/Home.png",
+    "thumbnails": [
+      "/commodity/98/images/Home.png"
+    ],
+    "imageClass": "product-98",
+    "isLimited": false
+  },
+  {
+    "id": 99,
+    "title": "Black 派克洛&基伯森｜海賊王 黑暗六天王第二彈",
+    "description": "⫸ 製作團隊：漫奇工作室\n⫸ 商品名稱：白星公主\n⫸ 建議售價：全款18800、訂金7520（未含國際運費）\n⫸ 規格尺寸：1/6，高45cm*寬35cm*深30cm\n⫸ 商品配置：替換手型、地台、魚尾特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,200",
+    "mainImage": "/commodity/99/images/Home.png",
+    "thumbnails": [
+      "/commodity/99/images/Home.png"
+    ],
+    "imageClass": "product-99",
+    "isLimited": false
+  },
+  {
+    "id": 100,
+    "title": "Black 基伯森｜海賊王 黑暗六天王第二彈",
+    "description": "⫸ 製作團隊：漫奇工作室\n⫸ 商品名稱：白星公主\n⫸ 建議售價：全款18800、訂金7520（未含國際運費）\n⫸ 規格尺寸：1/6，高45cm*寬35cm*深30cm\n⫸ 商品配置：替換手型、地台、魚尾特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年12月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,200",
+    "mainImage": "/commodity/100/images/Home.png",
+    "thumbnails": [
+      "/commodity/100/images/Home.png"
+    ],
+    "imageClass": "product-100",
+    "isLimited": false
   }
 ]
