@@ -81,10 +81,10 @@ const currentCategory = computed(() => {
   return category ? category.label : '全部新品'
 })
 
-// 最新上架商品（模擬最近30天內上架的商品）
+// 最新上架商品（從商品列表最後面開始，顯示最新的商品）
 const newArrivals = computed(() => {
-  // 這裡可以根據實際的日期字段來過濾，目前顯示所有商品
-  return productsData
+  // 反轉商品列表，讓最新的商品（ID 較大的）排在前面
+  return [...productsData].reverse()
 })
 
 // 過濾商品
@@ -128,7 +128,8 @@ const filteredProducts = computed(() => {
       break
     case 'newest':
     default:
-      // 保持原始順序（最新上架）
+      // 按 ID 從大到小排序（最新的商品在前）
+      filtered.sort((a, b) => b.id - a.id)
       break
   }
   

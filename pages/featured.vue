@@ -157,6 +157,30 @@ const categories = [
     iconType: 'anime'
   },
   { 
+    value: 'spyfamily', 
+    label: '間諜家家酒', 
+    count: productsData.filter(p => p.title.includes('間諜家家酒') || p.title.includes('安妮亞')).length,
+    iconType: 'anime'
+  },
+  { 
+    value: 'pokemon', 
+    label: '寶可夢', 
+    count: productsData.filter(p => p.title.includes('寶可夢') || p.title.includes('耿鬼') || p.title.includes('皮卡丘')).length,
+    iconType: 'anime'
+  },
+  { 
+    value: 'yugioh', 
+    label: '遊戲王', 
+    count: productsData.filter(p => p.title.includes('遊戲王') || p.title.includes('青眼究極龍')).length,
+    iconType: 'anime'
+  },
+  { 
+    value: 'hollowknight', 
+    label: '空洞騎士', 
+    count: productsData.filter(p => p.title.includes('空洞騎士') || p.title.includes('黃蜂女')).length,
+    iconType: 'game'
+  },
+  { 
     value: 'nier', 
     label: '尼爾機械紀元', 
     count: productsData.filter(p => p.title.includes('尼爾') || p.title.includes('2B') || p.title.includes('A2')).length,
@@ -211,11 +235,54 @@ const categories = [
     iconType: 'game'
   },
   { 
-    value: 'limited', 
-    label: '限量版', 
-    count: productsData.filter(p => p.isLimited).length,
-    iconType: 'limited'
-  }
+    value: 'nana', 
+    label: 'NANA', 
+    count: productsData.filter(p => p.title.includes('NANA') || p.title.includes('岡崎真一')).length,
+    iconType: 'anime'
+  },
+  { 
+    value: 'atelier', 
+    label: '萊莎的鍊金工房', 
+    count: productsData.filter(p => p.title.includes('萊莎') || p.title.includes('鍊金工房')).length,
+    iconType: 'game'
+  },
+  { 
+    value: 'stardew', 
+    label: '劍星', 
+    count: productsData.filter(p => p.title.includes('劍星') || p.title.includes('渡鴉')).length,
+    iconType: 'game'
+  },
+  { 
+    value: 'fallout', 
+    label: '異塵餘生', 
+    count: productsData.filter(p => p.title.includes('異塵餘生') || p.title.includes('輻射')).length,
+    iconType: 'game'
+  },
+  { 
+    value: 'zzt', 
+    label: '絕區零', 
+    count: productsData.filter(p => p.title.includes('絕區零') || p.title.includes('儀玄')).length,
+    iconType: 'game'
+  },
+  { 
+    value: 'oregairu', 
+    label: '我的青春戀愛物語', 
+    count: productsData.filter(p => p.title.includes('我的青春戀愛物語') || p.title.includes('一色伊呂波')).length,
+    iconType: 'anime'
+  },
+  { 
+    value: 'popmart', 
+    label: 'POPMART 泡泡瑪特', 
+    count: productsData.filter(p => p.title.includes('POPMART') || p.title.includes('泡泡瑪特') || p.title.includes('MOLLY')).length,
+    iconType: 'collectibles'
+  },
+  { 
+    value: 'bearbrick', 
+    label: '庫柏力克熊', 
+    count: productsData.filter(p => p.title.includes('庫柏力克熊') || p.title.includes('BE@RBRICK') || p.title.includes('NY@BRICK')).length,
+    iconType: 'collectibles'
+  },
+
 ]
 
 // Hero 統計數據
@@ -280,6 +347,14 @@ const featuredProducts = computed(() => {
         return product.title.includes('芙莉蓮')
       case 'digimon':
         return product.title.includes('數碼寶貝') || product.title.includes('妖女獸')
+      case 'spyfamily':
+        return product.title.includes('間諜家家酒') || product.title.includes('安妮亞')
+      case 'pokemon':
+        return product.title.includes('寶可夢') || product.title.includes('耿鬼') || product.title.includes('皮卡丘')
+      case 'yugioh':
+        return product.title.includes('遊戲王') || product.title.includes('青眼究極龍')
+      case 'hollowknight':
+        return product.title.includes('空洞騎士') || product.title.includes('黃蜂女')
       case 'nier':
         return product.title.includes('尼爾') || product.title.includes('2B') || product.title.includes('A2')
       case 'ff':
@@ -298,6 +373,22 @@ const featuredProducts = computed(() => {
         return product.title.includes('碧藍航線') || product.title.includes('武藏') || product.title.includes('信濃')
       case 'lol':
         return product.title.includes('英雄聯盟') || product.title.includes('阿璃')
+      case 'nana':
+        return product.title.includes('NANA') || product.title.includes('岡崎真一')
+      case 'atelier':
+        return product.title.includes('萊莎') || product.title.includes('鍊金工房')
+      case 'stardew':
+        return product.title.includes('劍星') || product.title.includes('渡鴉')
+      case 'fallout':
+        return product.title.includes('異塵餘生') || product.title.includes('輻射')
+      case 'zzt':
+        return product.title.includes('絕區零') || product.title.includes('儀玄')
+      case 'oregairu':
+        return product.title.includes('我的青春戀愛物語') || product.title.includes('一色伊呂波')
+      case 'popmart':
+        return product.title.includes('POPMART') || product.title.includes('泡泡瑪特') || product.title.includes('MOLLY')
+      case 'bearbrick':
+        return product.title.includes('庫柏力克熊') || product.title.includes('BE@RBRICK') || product.title.includes('NY@BRICK')
       case 'limited':
         return product.isLimited
       default:
