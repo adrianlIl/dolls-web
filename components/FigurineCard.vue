@@ -16,6 +16,10 @@
         <div v-if="isSoldOut" class="sold-out-overlay">
           <div class="sold-out-badge">售完</div>
         </div>
+        <!-- POPMART 百分比显示 -->
+        <div v-if="isPopmart && percentageText" class="percentage-badge">
+          {{ percentageText }}
+        </div>
       </div>
       <div class="figurine-info">
         <h3>{{ title }}</h3>
@@ -26,6 +30,8 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
+
 // 公仔卡片組件
 const props = defineProps({
   title: {
@@ -52,6 +58,42 @@ const props = defineProps({
     type: Boolean,
     default: false
   }
+})
+
+// 检查是否为需要显示百分比的产品
+const isPopmart = computed(() => {
+  return props.title.includes('POPMART') || 
+         props.title.includes('Pop Mart') || 
+         props.title.includes('泡泡瑪特') ||
+         props.title.includes('Molly') ||
+         props.title.includes('MOLLY') ||
+         props.title.includes('Labubu') ||
+         props.title.includes('庫柏力克熊') ||
+         props.title.includes('BE@RBRICK') ||
+         props.title.includes('@BEARBRICK') ||
+         props.title.includes('NY@BRICK')
+})
+
+// 提取百分比信息
+const percentageText = computed(() => {
+  if (!isPopmart.value) return ''
+  
+  // 匹配各种百分比格式：400%, 1000%, 400+100%, 400+100%等
+  // 支援半形 % 和全形 ％
+  const percentageMatch = props.title.match(/(\d+)(?:\+(\d+))?[%％]/)
+  
+  if (percentageMatch) {
+    const firstPercent = percentageMatch[1]
+    const secondPercent = percentageMatch[2]
+    
+    if (secondPercent) {
+      return `${firstPercent}+${secondPercent}%`
+    } else {
+      return `${firstPercent}%`
+    }
+  }
+  
+  return ''
 })
 </script>
 
@@ -205,6 +247,24 @@ const props = defineProps({
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   border: 2px solid white;
+}
+
+/* POPMART 百分比徽章样式 */
+.percentage-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: linear-gradient(135deg, #ff6b9d, #ff8fab);
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border: 2px solid white;
+  z-index: 4;
+  letter-spacing: 0.5px;
 }
 
 .sold-out-price {

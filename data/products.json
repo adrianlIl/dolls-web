@@ -1278,5 +1278,741 @@
     ],
     "imageClass": "product-100",
     "isLimited": false
+  },
+  {
+    "id": 101,
+    "title": "【預購款】ARA 女帝 波雅·漢考克｜海賊王 1/2",
+    "description": "⫸ 製作團隊：夢幻工坊\n⫸ 商品名稱：雷神索爾\n⫸ 建議售價：全款8500、訂金3400（未含國際運費）\n⫸ 規格尺寸：1/6，高32cm*寬25cm*深20cm\n⫸ 商品配置：雷神之錘、閃電特效件、替換手型\n⫸ 材質說明：進口樹脂+進口PU、LED燈組\n⫸ 備註說明：雷神之錘可發光\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 19,100",
+    "mainImage": "/commodity/101/images/Home.png",
+    "thumbnails": [
+      "/commodity/101/images/Home.png"
+    ],
+    "imageClass": "product-101",
+    "isLimited": false
+  },
+  {
+    "id": 102,
+    "title": "【預購款】Temple Angel 女帝波雅·漢庫克｜海賊王",
+    "description": "⫸ 製作團隊：星月工作室\n⫸ 商品名稱：初音未來 雪未來\n⫸ 建議售價：全款6200、訂金2480（未含國際運費）\n⫸ 規格尺寸：1/7，高28cm*寬18cm*深15cm\n⫸ 商品配置：雪景底座、雪花特效件\n⫸ 材質說明：PVC、ABS\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：2026年Q1（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 14,300",
+    "mainImage": "/commodity/102/images/Home.png",
+    "thumbnails": [
+      "/commodity/102/images/Home.png"
+    ],
+    "imageClass": "product-102",
+    "isLimited": false
+  },
+  {
+    "id": 103,
+    "title": "大熊社 佛朗基｜海賊王",
+    "description": "⫸ 製作團隊：龍王社\n⫸ 商品名稱：悟空 超級賽亞人藍\n⫸ 建議售價：全款9800、訂金3920（未含國際運費）\n⫸ 規格尺寸：1/6，高35cm*寬28cm*深22cm\n⫸ 商品配置：氣功波特效件、替換頭雕、地台\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 備註說明：氣功波可發光\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 6,700",
+    "mainImage": "/commodity/103/images/Home.png",
+    "thumbnails": [
+      "/commodity/103/images/Home.png"
+    ],
+    "imageClass": "product-103",
+    "isLimited": false
+  },
+  {
+    "id": 104,
+    "title": "模界霧都 布魯克&骷髏羊｜海賊王 奇異森林大冒險第五彈",
+    "description": "⫸ 製作團隊：幻影工作室\n⫸ 商品名稱：艾莉亞·史塔克\n⫸ 建議售價：全款7200、訂金2880（未含國際運費）\n⫸ 規格尺寸：1/6，高30cm*寬20cm*深18cm\n⫸ 商品配置：縫衣針劍、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 6,300",
+    "mainImage": "/commodity/104/images/Home.png",
+    "thumbnails": [
+      "/commodity/104/images/Home.png"
+    ],
+    "imageClass": "product-104",
+    "isLimited": false
+  },
+  {
+    "id": 105,
+    "title": "POPMART 泡泡瑪特 MEGA 400% SPACE MOLLY x INSTINCTOY 大久保",
+    "description": "⫸ 製作團隊：星辰工坊\n⫸ 商品名稱：明日香\n⫸ 建議售價：全款6800、訂金2720（未含國際運費）\n⫸ 規格尺寸：1/6，高32cm*寬18cm*深16cm\n⫸ 商品配置：替換頭雕、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 10,000",
+    "mainImage": "/commodity/105/images/Home.png",
+    "thumbnails": [
+      "/commodity/105/images/Home.png"
+    ],
+    "imageClass": "product-105",
+    "isLimited": false
+  },
+  {
+    "id": 106,
+    "title": "POPMART 泡泡瑪特 MEGA ROYAL MOLLY 莫奈 睡蓮 400%",
+    "description": "⫸ 製作團隊：神話工坊\n⫸ 商品名稱：雅典娜\n⫸ 建議售價：全款9200、訂金3680（未含國際運費）\n⫸ 規格尺寸：1/6，高38cm*寬25cm*深20cm\n⫸ 商品配置：勝利女神權杖、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 13,800",
+    "mainImage": "/commodity/106/images/Home.png",
+    "thumbnails": [
+      "/commodity/106/images/Home.png"
+    ],
+    "imageClass": "product-106",
+    "isLimited": false
+  },
+  {
+    "id": 107,
+    "title": "MEGA SPACE MOLLY 擎天柱 1000%",
+    "description": "⫸ 製作團隊：風暴工作室\n⫸ 商品名稱：雷電將軍\n⫸ 建議售價：全款8800、訂金3520（未含國際運費）\n⫸ 規格尺寸：1/6，高34cm*寬22cm*深18cm\n⫸ 商品配置：雷電特效件、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 備註說明：雷電特效可發光\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$  48,000",
+    "mainImage": "/commodity/107/images/Home.png",
+    "thumbnails": [
+      "/commodity/107/images/Home.png"
+    ],
+    "imageClass": "product-107",
+    "isLimited": false
+  },
+  {
+    "id": 108,
+    "title": "POPMART 泡泡瑪特 MEGA ROYAL MOLLY 蜷川實花 1000%",
+    "description": "⫸ 製作團隊：龍珠工坊\n⫸ 商品名稱：貝吉塔 超級賽亞人\n⫸ 建議售價：全款9500、訂金3800（未含國際運費）\n⫸ 規格尺寸：1/6，高33cm*寬26cm*深20cm\n⫸ 商品配置：氣功波特效件、替換頭雕、地台\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 36,000",
+    "mainImage": "/commodity/108/images/Home.png",
+    "thumbnails": [
+      "/commodity/108/images/Home.png"
+    ],
+    "imageClass": "product-108",
+    "isLimited": false
+  },
+  {
+    "id": 109,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 魷魚遊戲 海外限定 400+100%",
+    "description": "⫸ 製作團隊：幻夢工坊\n⫸ 商品名稱：夜神月\n⫸ 建議售價：全款6500、訂金2600（未含國際運費）\n⫸ 規格尺寸：1/6，高31cm*寬18cm*深15cm\n⫸ 商品配置：死亡筆記本、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 14,980",
+    "mainImage": "/commodity/109/images/Home.png",
+    "thumbnails": [
+      "/commodity/109/images/Home.png"
+    ],
+    "imageClass": "product-109",
+    "isLimited": false
+  },
+  {
+    "id": 110,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 2024聖誕 400%",
+    "description": "⫸ 製作團隊：星辰社\n⫸ 商品名稱：涼宮春日\n⫸ 建議售價：全款5800、訂金2320（未含國際運費）\n⫸ 規格尺寸：1/6，高29cm*寬16cm*深14cm\n⫸ 商品配置：替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 9,090",
+    "mainImage": "/commodity/110/images/Home.png",
+    "thumbnails": [
+      "/commodity/110/images/Home.png"
+    ],
+    "imageClass": "product-110",
+    "isLimited": false
+  },
+  {
+    "id": 111,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 小小兵 400%",
+    "description": "⫸ 製作團隊：神話工坊\n⫸ 商品名稱：海皇波塞冬\n⫸ 建議售價：全款11200、訂金4480（未含國際運費）\n⫸ 規格尺寸：1/6，高42cm*寬28cm*深22cm\n⫸ 商品配置：三叉戟、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 8,900",
+    "mainImage": "/commodity/111/images/Home.png",
+    "thumbnails": [
+      "/commodity/111/images/Home.png"
+    ],
+    "imageClass": "product-111",
+    "isLimited": false
+  },
+  {
+    "id": 112,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 加菲貓 400%",
+    "description": "⫸ 製作團隊：風暴工作室\n⫸ 商品名稱：胡桃\n⫸ 建議售價：全款7800、訂金3120（未含國際運費）\n⫸ 規格尺寸：1/6，高32cm*寬20cm*深16cm\n⫸ 商品配置：護摩之杖、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$  11,000",
+    "mainImage": "/commodity/112/images/Home.png",
+    "thumbnails": [
+      "/commodity/112/images/Home.png"
+    ],
+    "imageClass": "product-112",
+    "isLimited": false
+  },
+  {
+    "id": 113,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 上海限定 百樂門 400%",
+    "description": "⫸ 製作團隊：龍王社\n⫸ 商品名稱：弗利沙\n⫸ 建議售價：全款8200、訂金3280（未含國際運費）\n⫸ 規格尺寸：1/6，高30cm*寬24cm*深18cm\n⫸ 商品配置：替換頭雕、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 15,000",
+    "mainImage": "/commodity/113/images/Home.png",
+    "thumbnails": [
+      "/commodity/113/images/Home.png"
+    ],
+    "imageClass": "product-113",
+    "isLimited": false
+  },
+  {
+    "id": 114,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 飛天小女警 400+100% 花花",
+    "description": "⫸ 製作團隊：幻影社\n⫸ 商品名稱：美國隊長\n⫸ 建議售價：全款8800、訂金3520（未含國際運費）\n⫸ 規格尺寸：1/6，高34cm*寬22cm*深18cm\n⫸ 商品配置：盾牌、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 9,900",
+    "mainImage": "/commodity/114/images/Home.png",
+    "thumbnails": [
+      "/commodity/114/images/Home.png"
+    ],
+    "imageClass": "product-114",
+    "isLimited": false
+  },
+  {
+    "id": 115,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 飛天小女警 400+100% 毛毛",
+    "description": "⫸ 製作團隊：星月工坊\n⫸ 商品名稱：初音未來 雪未來2024\n⫸ 建議售價：全款6800、訂金2720（未含國際運費）\n⫸ 規格尺寸：1/7，高29cm*寬19cm*深16cm\n⫸ 商品配置：雪景底座、雪花特效件\n⫸ 材質說明：PVC、ABS\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：2026年Q1（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 9900",
+    "mainImage": "/commodity/115/images/Home.png",
+    "thumbnails": [
+      "/commodity/115/images/Home.png"
+    ],
+    "imageClass": "product-115",
+    "isLimited": false
+  },
+  {
+    "id": 116,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 飛天小女警 400+100% 泡泡",
+    "description": "⫸ 製作團隊：龍王社\n⫸ 商品名稱：人造人18號\n⫸ 建議售價：全款8200、訂金3280（未含國際運費）\n⫸ 規格尺寸：1/6，高31cm*寬20cm*深16cm\n⫸ 商品配置：替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 10800",
+    "mainImage": "/commodity/116/images/Home.png",
+    "thumbnails": [
+      "/commodity/116/images/Home.png"
+    ],
+    "imageClass": "product-116",
+    "isLimited": false
+  },
+  {
+    "id": 117,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 泰迪熊 400%",
+    "description": "⫸ 製作團隊：神話工坊\n⫸ 商品名稱：雙子座撒加\n⫸ 建議售價：全款9800、訂金3920（未含國際運費）\n⫸ 規格尺寸：1/6，高38cm*寬26cm*深22cm\n⫸ 商品配置：聖衣、替換頭雕、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 11,000",
+    "mainImage": "/commodity/117/images/Home.png",
+    "thumbnails": [
+      "/commodity/117/images/Home.png"
+    ],
+    "imageClass": "product-117",
+    "isLimited": false
+  },
+  {
+    "id": 118,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 冰川 400%",
+    "description": "⫸ 製作團隊：風暴工作室\n⫸ 商品名稱：魈\n⫸ 建議售價：全款8800、訂金3520（未含國際運費）\n⫸ 規格尺寸：1/6，高34cm*寬22cm*深18cm\n⫸ 商品配置：和璞鳶、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 13,000",
+    "mainImage": "/commodity/118/images/Home.png",
+    "thumbnails": [
+      "/commodity/118/images/Home.png"
+    ],
+    "imageClass": "product-118",
+    "isLimited": false
+  },
+  {
+    "id": 119,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 福音戰士 初號機 400%",
+    "description": "⫸ 製作團隊：幻夢工坊\n⫸ 商品名稱：漩渦鳴人\n⫸ 建議售價：全款8500、訂金3400（未含國際運費）\n⫸ 規格尺寸：1/6，高35cm*寬25cm*深20cm\n⫸ 商品配置：替換手型、地台、特效件\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 9,500",
+    "mainImage": "/commodity/119/images/Home.png",
+    "thumbnails": [
+      "/commodity/119/images/Home.png"
+    ],
+    "imageClass": "product-119",
+    "isLimited": false
+  },
+  {
+    "id": 120,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 經典可口可樂 400%",
+    "description": "⫸ 製作團隊：星辰工坊\n⫸ 商品名稱：渚薰\n⫸ 建議售價：全款7200、訂金2880（未含國際運費）\n⫸ 規格尺寸：1/6，高32cm*寬18cm*深16cm\n⫸ 商品配置：替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$  9,200",
+    "mainImage": "/commodity/120/images/Home.png",
+    "thumbnails": [
+      "/commodity/120/images/Home.png"
+    ],
+    "imageClass": "product-120",
+    "isLimited": false
+  },
+  {
+    "id": 121,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY x 派大星 400%",
+    "description": "⫸ 製作團隊：神話工坊\n⫸ 商品名稱：處女座沙加\n⫸ 建議售價：全款10200、訂金4080（未含國際運費）\n⫸ 規格尺寸：1/6，高39cm*寬27cm*深23cm\n⫸ 商品配置：聖衣、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 10,500",
+    "mainImage": "/commodity/121/images/Home.png",
+    "thumbnails": [
+      "/commodity/121/images/Home.png"
+    ],
+    "imageClass": "product-121",
+    "isLimited": false
+  },
+  {
+    "id": 122,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 易怒熊 care bears 400+100%",
+    "description": "⫸ 製作團隊：風暴工作室\n⫸ 商品名稱：鍾離\n⫸ 建議售價：全款9200、訂金3680（未含國際運費）\n⫸ 規格尺寸：1/6，高36cm*寬24cm*深20cm\n⫸ 商品配置：貫虹之槊、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 15,000",
+    "mainImage": "/commodity/122/images/Home.png",
+    "thumbnails": [
+      "/commodity/122/images/Home.png"
+    ],
+    "imageClass": "product-122",
+    "isLimited": false
+  },
+  {
+    "id": 123,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY x mickey 米奇 米妮聯名款 400%",
+    "description": "⫸ 製作團隊：大熊社\n⫸ 商品名稱：香吉士\n⫸ 建議售價：全款6800、訂金2720（未含國際運費）\n⫸ 規格尺寸：1/6，高32cm*寬20cm*深16cm\n⫸ 商品配置：替換手型、地台、香煙配件\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$  6,280",
+    "mainImage": "/commodity/123/images/Home.png",
+    "thumbnails": [
+      "/commodity/123/images/Home.png"
+    ],
+    "imageClass": "product-123",
+    "isLimited": false
+  },
+  {
+    "id": 124,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 西瓜 400%",
+    "description": "⫸ 製作團隊：龍虎工作室\n⫸ 商品名稱：多佛朗明哥\n⫸ 建議售價：全款8500、訂金3400（未含國際運費）\n⫸ 規格尺寸：1/6，高35cm*寬25cm*深20cm\n⫸ 商品配置：替換手型、地台、線線果實特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 18,500",
+    "mainImage": "/commodity/124/images/Home.png",
+    "thumbnails": [
+      "/commodity/124/images/Home.png"
+    ],
+    "imageClass": "product-124",
+    "isLimited": false
+  },
+  {
+    "id": 125,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 太妃 400%",
+    "description": "⫸ 製作團隊：大熊社\n⫸ 商品名稱：佛朗基\n⫸ 建議售價：全款7800、訂金3120（未含國際運費）\n⫸ 規格尺寸：1/6，高36cm*寬24cm*深20cm\n⫸ 商品配置：替換手型、地台、可動關節\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 8,500",
+    "mainImage": "/commodity/125/images/Home.png",
+    "thumbnails": [
+      "/commodity/125/images/Home.png"
+    ],
+    "imageClass": "product-125",
+    "isLimited": false
+  },
+  {
+    "id": 126,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 小畫家 400%",
+    "description": "⫸ 製作團隊：SY工作室\n⫸ 商品名稱：白鬍子\n⫸ 建議售價：全款15200、訂金6080（未含國際運費）\n⫸ 規格尺寸：1/6，高42cm*寬30cm*深25cm\n⫸ 商品配置：替換手型、地台、震震果實特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 11,800",
+    "mainImage": "/commodity/126/images/Home.png",
+    "thumbnails": [
+      "/commodity/126/images/Home.png"
+    ],
+    "imageClass": "product-126",
+    "isLimited": false
+  },
+  {
+    "id": 127,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 聖誕限定 400%",
+    "description": "⫸ 製作團隊：Anm工作室\n⫸ 商品名稱：鷹眼米霍克\n⫸ 建議售價：全款9200、訂金3680（未含國際運費）\n⫸ 規格尺寸：1/6，高38cm*寬28cm*深22cm\n⫸ 商品配置：黑刀夜、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 7,600",
+    "mainImage": "/commodity/127/images/Home.png",
+    "thumbnails": [
+      "/commodity/127/images/Home.png"
+    ],
+    "imageClass": "product-127",
+    "isLimited": false
+  },
+  {
+    "id": 128,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 特調系列 400% 盲盒",
+    "description": "⫸ 製作團隊：Black工作室\n⫸ 商品名稱：大媽夏洛特·玲玲\n⫸ 建議售價：全款12800、訂金5120（未含國際運費）\n⫸ 規格尺寸：1/6，高40cm*寬32cm*深28cm\n⫸ 商品配置：替換手型、地台、靈魂果實特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 6,900",
+    "mainImage": "/commodity/128/images/Home.png",
+    "thumbnails": [
+      "/commodity/128/images/Home.png"
+    ],
+    "imageClass": "product-128",
+    "isLimited": false
+  },
+  {
+    "id": 129,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 特調系列 400% 盲盒",
+    "description": "⫸ 製作團隊：MegaHouse\n⫸ 商品名稱：喬巴\n⫸ 建議售價：全款5800、訂金2320（未含國際運費）\n⫸ 規格尺寸：1/6，高28cm*寬18cm*深15cm\n⫸ 商品配置：替換頭雕、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 6,900",
+    "mainImage": "/commodity/129/images/Home.png",
+    "thumbnails": [
+      "/commodity/129/images/Home.png"
+    ],
+    "imageClass": "product-129",
+    "isLimited": false
+  },
+  {
+    "id": 130,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 特調系列 400% 盲盒",
+    "description": "⫸ 製作團隊：模王工作室\n⫸ 商品名稱：超海賊六神合體機神 魯夫\n⫸ 建議售價：全款18500、訂金7400（未含國際運費）\n⫸ 規格尺寸：1/6，高45cm*寬35cm*深30cm\n⫸ 商品配置：可變形機甲、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 6,900",
+    "mainImage": "/commodity/130/images/Home.png",
+    "thumbnails": [
+      "/commodity/130/images/Home.png"
+    ],
+    "imageClass": "product-130",
+    "isLimited": false
+  },
+  {
+    "id": 131,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 特調系列 400% 盲盒",
+    "description": "⫸ 製作團隊：Black工作室\n⫸ 商品名稱：夏洛特·卡塔庫栗\n⫸ 建議售價：全款9800、訂金3920（未含國際運費）\n⫸ 規格尺寸：1/6，高38cm*寬26cm*深22cm\n⫸ 商品配置：替換手型、地台、糯糯果實特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$  6,900",
+    "mainImage": "/commodity/131/images/Home.png",
+    "thumbnails": [
+      "/commodity/131/images/Home.png"
+    ],
+    "imageClass": "product-131",
+    "isLimited": false
+  },
+  {
+    "id": 132,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 特調系列 400% 盲盒",
+    "description": "⫸ 製作團隊：大熊社\n⫸ 商品名稱：錐之青椒 競技場系列第八彈\n⫸ 建議售價：全款6200、訂金2480（未含國際運費）\n⫸ 規格尺寸：1/6，高32cm*寬22cm*深18cm\n⫸ 商品配置：替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 6,900",
+    "mainImage": "/commodity/132/images/Home.png",
+    "thumbnails": [
+      "/commodity/132/images/Home.png"
+    ],
+    "imageClass": "product-132",
+    "isLimited": false
+  },
+  {
+    "id": 133,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 特調系列 400% 盲盒",
+    "description": "⫸ 製作團隊：幾何空間與漆核\n⫸ 商品名稱：薇薇\n⫸ 建議售價：全款6800、訂金2720（未含國際運費）\n⫸ 規格尺寸：1/6，高31cm*寬20cm*深16cm\n⫸ 商品配置：替換手型、地台、孔雀鎖鏈\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 6,900",
+    "mainImage": "/commodity/133/images/Home.png",
+    "thumbnails": [
+      "/commodity/133/images/Home.png"
+    ],
+    "imageClass": "product-133",
+    "isLimited": false
+  },
+  {
+    "id": 134,
+    "title": "POPMART 泡泡瑪特-香氛蠟燭盲盒",
+    "description": "⫸ 製作團隊：As工作室\n⫸ 商品名稱：索隆夢魘\n⫸ 建議售價：全款7200、訂金2880（未含國際運費）\n⫸ 規格尺寸：1/6，高34cm*寬24cm*深20cm\n⫸ 商品配置：三把刀、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/134/images/Home.png",
+    "thumbnails": [
+      "/commodity/134/images/Home.png"
+    ],
+    "imageClass": "product-134",
+    "isLimited": false
+  },
+  {
+    "id": 135,
+    "title": "泡泡瑪特 BABY MOLLY 口袋朋友系列搪膠毛絨掛件盲盒(6入)",
+    "description": "⫸ 製作團隊：即刻工作室\n⫸ 商品名稱：大媽 皇系列第二彈\n⫸ 建議售價：全款16800、訂金6720（未含國際運費）\n⫸ 規格尺寸：1/6，高42cm*寬35cm*深30cm\n⫸ 商品配置：替換手型、地台、靈魂果實特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/135/images/Home.png",
+    "thumbnails": [
+      "/commodity/135/images/Home.png"
+    ],
+    "imageClass": "product-135",
+    "isLimited": false
+  },
+  {
+    "id": 136,
+    "title": "庫柏力克熊@BEARBRICK合格祈福達摩 100%",
+    "description": "⫸ 製作團隊：FIT工作室\n⫸ 商品名稱：魯夫 職籃全明星系列 1/4-紅色\n⫸ 建議售價：全款6800、訂金2720（未含國際運費）\n⫸ 規格尺寸：1/4，高45cm*寬30cm*深25cm\n⫸ 商品配置：替換手型、地台、籃球配件\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/136/images/Home.png",
+    "thumbnails": [
+      "/commodity/136/images/Home.png"
+    ],
+    "imageClass": "product-136",
+    "isLimited": false
+  },
+  {
+    "id": 137,
+    "title": "庫柏力克熊BE@RBRICK 金福達摩 100%",
+    "description": "⫸ 製作團隊：UNO工作室\n⫸ 商品名稱：紅髮傑克胸像\n⫸ 建議售價：全款9200、訂金3680（未含國際運費）\n⫸ 規格尺寸：1/6，高35cm*寬28cm*深22cm\n⫸ 商品配置：替換手型、地台、格里芬\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/137/images/Home.png",
+    "thumbnails": [
+      "/commodity/137/images/Home.png"
+    ],
+    "imageClass": "product-137",
+    "isLimited": false
+  },
+  {
+    "id": 138,
+    "title": "庫柏力克熊NY@BRICK 不二家 奶妹 招財貓 金運100％",
+    "description": "⫸ 製作團隊：AO工作室\n⫸ 商品名稱：羅賓 海賊女性系列第三彈 1/4\n⫸ 建議售價：全款9800、訂金3920（未含國際運費）\n⫸ 規格尺寸：1/4，高42cm*寬28cm*深22cm\n⫸ 商品配置：替換手型、地台、花花果實特效件\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/138/images/Home.png",
+    "thumbnails": [
+      "/commodity/138/images/Home.png"
+    ],
+    "imageClass": "product-138",
+    "isLimited": false
+  },
+  {
+    "id": 139,
+    "title": "泡泡馬特POPMART泡泡瑪特迪士尼/皮克斯POP CUBE-123系列手辦盲盒",
+    "description": "⫸ 製作團隊：Black工作室\n⫸ 商品名稱：年輕版五老星\n⫸ 建議售價：全款12800、訂金5120（未含國際運費）\n⫸ 規格尺寸：1/6，高38cm*寬30cm*深25cm\n⫸ 商品配置：替換手型、地台、替換頭雕\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/139/images/Home.png",
+    "thumbnails": [
+      "/commodity/139/images/Home.png"
+    ],
+    "imageClass": "product-139",
+    "isLimited": false
+  },
+  {
+    "id": 140,
+    "title": "泡泡瑪特 POPMART CRYBABY 哭娃畢業系列盲盒, 1入",
+    "description": "⫸ 製作團隊：LZ工作室\n⫸ 商品名稱：四檔彈跳人魯夫\n⫸ 建議售價：全款8500、訂金3400（未含國際運費）\n⫸ 規格尺寸：1/6，高38cm*寬28cm*深24cm\n⫸ 商品配置：替換手型、地台、橡膠果實特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年10月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/140/images/Home.png",
+    "thumbnails": [
+      "/commodity/140/images/Home.png"
+    ],
+    "imageClass": "product-140",
+    "isLimited": false
+  },
+  {
+    "id": 141,
+    "title": "Labubu The Monsters 怪味便利店系列盲盒限定(6入)",
+    "description": "⫸ 製作團隊：夢幻工坊\n⫸ 商品名稱：鋼鐵人 Mark 85\n⫸ 建議售價：全款9800、訂金3920（未含國際運費）\n⫸ 規格尺寸：1/6，高33cm*寬25cm*深20cm\n⫸ 商品配置：替換手型、地台、LED燈組\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 備註說明：胸部和手掌可發光\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/141/images/Home.png",
+    "thumbnails": [
+      "/commodity/141/images/Home.png",
+      "/commodity/141/images/one.png",
+      "/commodity/141/images/two.png"
+    ],
+    "imageClass": "product-141",
+    "isLimited": false
+  },
+  {
+    "id": 142,
+    "title": "Labubu The Monsters 公仔 牛仔吊帶褲 400%",
+    "description": "⫸ 製作團隊：龍王社\n⫸ 商品名稱：孫悟空 超級賽亞人4\n⫸ 建議售價：全款12500、訂金5000（未含國際運費）\n⫸ 規格尺寸：1/6，高38cm*寬30cm*深25cm\n⫸ 商品配置：替換頭雕、替換手型、地台、特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/142/images/Home.png",
+    "thumbnails": [
+      "/commodity/142/images/Home.png",
+      "/commodity/142/images/one.png"
+    ],
+    "imageClass": "product-142",
+    "isLimited": false
+  },
+  {
+    "id": 143,
+    "title": "MEGA SPACE MOLLY 400% 喬恩 伯格曼系列 SPACE CADETS",
+    "description": "⫸ 製作團隊：幻影社\n⫸ 商品名稱：鋼鐵人 Mark 85\n⫸ 建議售價：全款9800、訂金3920（未含國際運費）\n⫸ 規格尺寸：1/6，高33cm*寬25cm*深20cm\n⫸ 商品配置：替換手型、地台、LED燈組\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 備註說明：胸部和手掌可發光\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000 ",
+    "mainImage": "/commodity/143/images/Home.png",
+    "thumbnails": [
+      "/commodity/143/images/Home.png",
+      "/commodity/143/images/one.png",
+      "/commodity/143/images/two.png"
+    ],
+    "imageClass": "product-143",
+    "isLimited": false
+  },
+  {
+    "id": 144,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 特調系列 100% 盲盒(6入)",
+    "description": "⫸ 製作團隊：星月工坊\n⫸ 商品名稱：初音未來 未來有你\n⫸ 建議售價：全款7200、訂金2880（未含國際運費）\n⫸ 規格尺寸：1/7，高30cm*寬20cm*深16cm\n⫸ 商品配置：替換手型、地台、特效件\n⫸ 材質說明：PVC、ABS\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：2026年Q1（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/144/images/Home.png",
+    "thumbnails": [
+      "/commodity/144/images/Home.png",
+      "/commodity/144/images/one.png"
+    ],
+    "imageClass": "product-144",
+    "isLimited": false
+  },
+  {
+    "id": 145,
+    "title": "Pop Mart 泡泡瑪特 Space Molly 熊貓 100%",
+    "description": "⫸ 製作團隊：龍王社\n⫸ 商品名稱：人造人18號\n⫸ 建議售價：全款8200、訂金3280（未含國際運費）\n⫸ 規格尺寸：1/6，高31cm*寬20cm*深16cm\n⫸ 商品配置：替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/145/images/Home.png",
+    "thumbnails": [
+      "/commodity/145/images/Home.png",
+      "/commodity/145/images/one.png",
+      "/commodity/145/images/two.png"
+    ],
+    "imageClass": "product-145",
+    "isLimited": false
+  },
+  {
+    "id": 146,
+    "title": "Mega Space Molly 珍珠奶茶 100%",
+    "description": "⫸ 製作團隊：神話工坊\n⫸ 商品名稱：雙子座撒加\n⫸ 建議售價：全款9800、訂金3920（未含國際運費）\n⫸ 規格尺寸：1/6，高38cm*寬26cm*深22cm\n⫸ 商品配置：聖衣、替換頭雕、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/146/images/Home.png",
+    "thumbnails": [
+      "/commodity/146/images/Home.png",
+      "/commodity/146/images/one.png"
+    ],
+    "imageClass": "product-146",
+    "isLimited": false
+  },
+  {
+    "id": 147,
+    "title": "Pop Mart Mega Space Molly Rainbow 彩虹 100%",
+    "description": "⫸ 製作團隊：風暴工作室\n⫸ 商品名稱：魈\n⫸ 建議售價：全款8800、訂金3520（未含國際運費）\n⫸ 規格尺寸：1/6，高34cm*寬22cm*深18cm\n⫸ 商品配置：和璞鳶、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/147/images/Home.png",
+    "thumbnails": [
+      "/commodity/147/images/Home.png",
+      "/commodity/147/images/one.png"
+    ],
+    "imageClass": "product-147",
+    "isLimited": false
+  },
+  {
+    "id": 148,
+    "title": "Mega Space Molly Joker 小丑 100% 泡泡瑪特",
+    "description": "⫸ 製作團隊：幻夢工坊\n⫸ 商品名稱：漩渦鳴人\n⫸ 建議售價：全款8500、訂金3400（未含國際運費）\n⫸ 規格尺寸：1/6，高35cm*寬25cm*深20cm\n⫸ 商品配置：替換手型、地台、特效件\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/148/images/Home.png",
+    "thumbnails": [
+      "/commodity/148/images/Home.png",
+      "/commodity/148/images/one.png",
+      "/commodity/148/images/two.png"
+    ],
+    "imageClass": "product-148",
+    "isLimited": false
+  },
+  {
+    "id": 149,
+    "title": "Mega Space Molly Donald Duck 唐老鴨 100% 泡泡瑪特",
+    "description": "⫸ 製作團隊：星辰工坊\n⫸ 商品名稱：渚薰\n⫸ 建議售價：全款7200、訂金2880（未含國際運費）\n⫸ 規格尺寸：1/6，高32cm*寬18cm*深16cm\n⫸ 商品配置：替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/149/images/Home.png",
+    "thumbnails": [
+      "/commodity/149/images/Home.png",
+      "/commodity/149/images/one.png"
+    ],
+    "imageClass": "product-149",
+    "isLimited": false
+  },
+  {
+    "id": 150,
+    "title": "Molly Sweet Dreams Bear 甜夢熊 100%",
+    "description": "⫸ 製作團隊：神話工坊\n⫸ 商品名稱：處女座沙加\n⫸ 建議售價：全款10200、訂金4080（未含國際運費）\n⫸ 規格尺寸：1/6，高39cm*寬27cm*深23cm\n⫸ 商品配置：聖衣、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/150/images/Home.png",
+    "thumbnails": [
+      "/commodity/150/images/Home.png",
+      "/commodity/150/images/one.png",
+      "/commodity/150/images/two.png"
+    ],
+    "imageClass": "product-150",
+    "isLimited": false
+  },
+  {
+    "id": 151,
+    "title": "Pop Mart 泡泡瑪特 大天使 100%",
+    "description": "⫸ 製作團隊：風暴工作室\n⫸ 商品名稱：鍾離\n⫸ 建議售價：全款9200、訂金3680（未含國際運費）\n⫸ 規格尺寸：1/6，高36cm*寬24cm*深20cm\n⫸ 商品配置：貫虹之槊、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/151/images/Home.png",
+    "thumbnails": [
+      "/commodity/151/images/Home.png",
+      "/commodity/151/images/one.png"
+    ],
+    "imageClass": "product-151",
+    "isLimited": false
+  },
+  {
+    "id": 152,
+    "title": "POPMART 泡泡瑪特 MEGA 100% SPACE MOLLY x INSTINCTOY 大久保",
+    "description": "⫸ 製作團隊：大熊社\n⫸ 商品名稱：香吉士\n⫸ 建議售價：全款6800、訂金2720（未含國際運費）\n⫸ 規格尺寸：1/6，高32cm*寬20cm*深16cm\n⫸ 商品配置：替換手型、地台、香煙配件\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/152/images/Home.png",
+    "thumbnails": [
+      "/commodity/152/images/Home.png",
+      "/commodity/152/images/one.png",
+      "/commodity/152/images/two.png"
+    ],
+    "imageClass": "product-152",
+    "isLimited": false
+  },
+  {
+    "id": 153,
+    "title": "POPMART 泡泡瑪特 MEGA ROYAL MOLLY 莫奈 睡蓮 100%",
+    "description": "⫸ 製作團隊：龍虎工作室\n⫸ 商品名稱：多佛朗明哥\n⫸ 建議售價：全款8500、訂金3400（未含國際運費）\n⫸ 規格尺寸：1/6，高35cm*寬25cm*深20cm\n⫸ 商品配置：替換手型、地台、線線果實特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/153/images/Home.png",
+    "thumbnails": [
+      "/commodity/153/images/Home.png",
+      "/commodity/153/images/one.png"
+    ],
+    "imageClass": "product-153",
+    "isLimited": false
+  },
+  {
+    "id": 154,
+    "title": "MEGA SPACE MOLLY 擎天柱 100%",
+    "description": "⫸ 製作團隊：大熊社\n⫸ 商品名稱：佛朗基\n⫸ 建議售價：全款7800、訂金3120（未含國際運費）\n⫸ 規格尺寸：1/6，高36cm*寬24cm*深20cm\n⫸ 商品配置：替換手型、地台、可動關節\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000 ",
+    "mainImage": "/commodity/154/images/Home.png",
+    "thumbnails": [
+      "/commodity/154/images/Home.png",
+      "/commodity/154/images/one.png",
+      "/commodity/154/images/two.png"
+    ],
+    "imageClass": "product-154",
+    "isLimited": false
+  },
+  {
+    "id": 155,
+    "title": "POPMART 泡泡瑪特 MEGA ROYAL MOLLY 蜷川實花 100%",
+    "description": "⫸ 製作團隊：SY工作室\n⫸ 商品名稱：白鬍子\n⫸ 建議售價：全款15200、訂金6080（未含國際運費）\n⫸ 規格尺寸：1/6，高42cm*寬30cm*深25cm\n⫸ 商品配置：替換手型、地台、震震果實特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/155/images/Home.png",
+    "thumbnails": [
+      "/commodity/155/images/Home.png",
+      "/commodity/155/images/one.png"
+    ],
+    "imageClass": "product-155",
+    "isLimited": false
+  },
+  {
+    "id": 156,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 魷魚遊戲 海外限定 100%",
+    "description": "⫸ 製作團隊：Anm工作室\n⫸ 商品名稱：鷹眼米霍克\n⫸ 建議售價：全款9200、訂金3680（未含國際運費）\n⫸ 規格尺寸：1/6，高38cm*寬28cm*深22cm\n⫸ 商品配置：黑刀夜、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/156/images/Home.png",
+    "thumbnails": [
+      "/commodity/156/images/Home.png",
+      "/commodity/156/images/one.png",
+      "/commodity/156/images/two.png"
+    ],
+    "imageClass": "product-156",
+    "isLimited": false
+  },
+  {
+    "id": 157,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 2024聖誕 100%",
+    "description": "⫸ 製作團隊：Black工作室\n⫸ 商品名稱：大媽夏洛特·玲玲\n⫸ 建議售價：全款12800、訂金5120（未含國際運費）\n⫸ 規格尺寸：1/6，高40cm*寬32cm*深28cm\n⫸ 商品配置：替換手型、地台、靈魂果實特效件\n⫸ 材質說明：進口樹脂+進口PU、透明件\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/157/images/Home.png",
+    "thumbnails": [
+      "/commodity/157/images/Home.png",
+      "/commodity/157/images/one.png"
+    ],
+    "imageClass": "product-157",
+    "isLimited": false
+  },
+  {
+    "id": 158,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 小小兵 100%",
+    "description": "⫸ 製作團隊：MegaHouse\n⫸ 商品名稱：喬巴\n⫸ 建議售價：全款5800、訂金2320（未含國際運費）\n⫸ 規格尺寸：1/6，高28cm*寬18cm*深15cm\n⫸ 商品配置：替換頭雕、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/158/images/Home.png",
+    "thumbnails": [
+      "/commodity/158/images/Home.png",
+      "/commodity/158/images/one.png"
+    ],
+    "imageClass": "product-158",
+    "isLimited": false
+  },
+  {
+    "id": 159,
+    "title": "POPMART 泡泡瑪特 MEGA SPACE MOLLY 加菲貓 100%",
+    "description": "⫸ 製作團隊：模王工作室\n⫸ 商品名稱：超海賊六神合體機神 魯夫\n⫸ 建議售價：全款18500、訂金7400（未含國際運費）\n⫸ 規格尺寸：1/6，高45cm*寬35cm*深30cm\n⫸ 商品配置：可變形機甲、替換手型、地台\n⫸ 材質說明：進口樹脂+進口PU、金屬配件\n⫸ 開訂時間：2025年11月\n⫸ 預計出貨：截單後3個月（僅供參考，實際以工作室發貨為主）",
+    "price": "NT$ 5,000",
+    "mainImage": "/commodity/159/images/Home.png",
+    "thumbnails": [
+      "/commodity/159/images/Home.png",
+      "/commodity/159/images/one.png",
+      "/commodity/159/images/two.png"
+    ],
+    "imageClass": "product-159",
+    "isLimited": false
   }
 ]
