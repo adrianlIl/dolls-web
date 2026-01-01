@@ -1,5 +1,15 @@
 <template>
   <div class="product-detail-page">
+    <!-- Announcement Banner -->
+    <div class="announcement-banner">
+      <div class="container">
+        <div class="announcement-content">
+          <span class="announcement-icon">📢</span>
+          <span class="announcement-text">LaBuBu全面出清</span>
+        </div>
+      </div>
+    </div>
+
     <!-- Breadcrumbs -->
     <div class="breadcrumbs">
       <div class="container">
@@ -245,6 +255,55 @@ const setActiveThumbnail = (index) => {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+/* Announcement Banner */
+.announcement-banner {
+  background: linear-gradient(135deg, #ff6b9d 0%, #ff8fab 100%);
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(255, 107, 157, 0.3);
+  position: relative;
+  z-index: 10;
+  margin-top: 70px; /* 為固定 header 留出空間 */
+}
+
+.announcement-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.announcement-icon {
+  font-size: 1.3rem;
+  animation: bounce 1s ease-in-out infinite;
+}
+
+.announcement-text {
+  letter-spacing: 0.05em;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
 }
 
 /* Breadcrumbs */
@@ -612,6 +671,20 @@ const setActiveThumbnail = (index) => {
 
 /* 響應式設計 */
 @media (max-width: 768px) {
+  .announcement-banner {
+    margin-top: 62px; /* 手機版 header 較矮 */
+    padding: 0.75rem 0;
+  }
+  
+  .announcement-content {
+    font-size: 1rem;
+    gap: 0.5rem;
+  }
+  
+  .announcement-icon {
+    font-size: 1.1rem;
+  }
+  
   .product-detail-content {
     grid-template-columns: 1fr;
     gap: 2rem;
